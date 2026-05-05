@@ -1,0 +1,10 @@
+
+[
+  {
+    "strName" : "Mod Loading Order",
+    "aLoadOrder" : [
+      "core",
+      "SolarPanels"
+    ]
+  }
+]
