@@ -1,0 +1,120 @@
+[
+  {
+    "strName": "TIsSolarPanelSmallInstalled",
+    "strCondName": "",
+    "fChance": 1.0,
+    "fCount": 1.0,
+    "aReqs": [
+      "IsSolarPanelSmall",
+      "IsInstalled"
+    ],
+    "aForbids": [
+      "IsDamaged"
+    ],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsSolarPanelSmallInstalledDmg",
+    "strCondName": "",
+    "fChance": 1.0,
+    "fCount": 1.0,
+    "aReqs": [
+      "IsSolarPanelSmall",
+      "IsInstalled",
+      "IsDamaged"
+    ],
+    "aForbids": [],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsSolarPanelSmallUninstalled",
+    "strCondName": "",
+    "fChance": 1.0,
+    "fCount": 1.0,
+    "aReqs": [
+      "IsSolarPanelSmall"
+    ],
+    "aForbids": [
+      "IsInstalled",
+      "IsDamaged"
+    ],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsSolarPanelSmallUninstalledDmg",
+    "strCondName": "",
+    "fChance": 1.0,
+    "fCount": 1.0,
+    "aReqs": [
+      "IsSolarPanelSmall",
+      "IsDamaged"
+    ],
+    "aForbids": [
+      "IsInstalled"
+    ],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsSolarPanelMediumInstalled",
+    "strCondName": "",
+    "fChance": 1.0,
+    "fCount": 1.0,
+    "aReqs": [
+      "IsSolarPanelMedium",
+      "IsInstalled"
+    ],
+    "aForbids": [
+      "IsDamaged"
+    ],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsSolarPanelMediumInstalledDmg",
+    "strCondName": "",
+    "fChance": 1.0,
+    "fCount": 1.0,
+    "aReqs": [
+      "IsSolarPanelMedium",
+      "IsInstalled",
+      "IsDamaged"
+    ],
+    "aForbids": [],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsSolarPanelMediumUninstalled",
+    "strCondName": "",
+    "fChance": 1.0,
+    "fCount": 1.0,
+    "aReqs": [
+      "IsSolarPanelMedium"
+    ],
+    "aForbids": [
+      "IsInstalled",
+      "IsDamaged"
+    ],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsSolarPanelMediumUninstalledDmg",
+    "strCondName": "",
+    "fChance": 1.0,
+    "fCount": 1.0,
+    "aReqs": [
+      "IsSolarPanelMedium",
+      "IsDamaged"
+    ],
+    "aForbids": [
+      "IsInstalled"
+    ],
+    "aTriggers": [],
+    "bAND": true
+  }
+]

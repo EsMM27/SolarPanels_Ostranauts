@@ -1,0 +1,210 @@
+[
+  {
+    "strName": "SolarPanelSmallInstall",
+    "strActionCO": "ItmSolarPanelSmallLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Installs item.",
+    "strInteractionTemplate": "ACTInstallTEMP",
+    "CTThem": "TIsSolarPanelSmallUninstalled",
+    "aInputs": [
+      "TIsSolarPanelSmallUninstalled=1.0x1"
+    ],
+    "fTargetPointRange": 3.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmSolarPanelSmall"
+    ],
+    "strStartInstall": "ItmSolarPanelSmall",
+    "strBuildType": "POWR",
+    "strJobType": "install",
+    "strAllowLootCTsUs": "CTWorkProgressPOWR",
+    "strAllowLootCTsThem": "CONDInstallProgressx5",
+    "strProgressStat": "StatInstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRatePOWR"
+  },
+  {
+    "strName": "SolarPanelSmallUninstall",
+    "strActionCO": "ItmSolarPanelSmall",
+    "strActionGroup": "Work",
+    "strTooltip": "Uninstalls item.",
+    "strInteractionTemplate": "ACTUninstallTEMP",
+    "CTThem": "TIsSolarPanelSmallInstalled",
+    "aInputs": [],
+    "fTargetPointRange": 3.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmSolarPanelSmallLoose"
+    ],
+    "strJobType": "uninstall",
+    "strAllowLootCTsUs": "CTWorkProgressPOWR",
+    "strAllowLootCTsThem": "CONDUninstallProgressx5",
+    "strProgressStat": "StatUninstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRatePOWR"
+  },
+  {
+    "strName": "SolarPanelSmallInstallDmg",
+    "strActionCO": "ItmSolarPanelSmallDmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Installs item.",
+    "strInteractionTemplate": "ACTInstallTEMP",
+    "CTThem": "TIsSolarPanelSmallUninstalledDmg",
+    "aInputs": [
+      "TIsSolarPanelSmallUninstalledDmg=1.0x1"
+    ],
+    "fTargetPointRange": 3.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmSolarPanelSmallDmg"
+    ],
+    "strStartInstall": "ItmSolarPanelSmallDmg",
+    "strBuildType": "POWR",
+    "strJobType": "install",
+    "strAllowLootCTsUs": "CTWorkProgressPOWR",
+    "strAllowLootCTsThem": "CONDInstallProgressx5",
+    "strProgressStat": "StatInstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRatePOWR"
+  },
+  {
+    "strName": "SolarPanelSmallUninstallDmg",
+    "strActionCO": "ItmSolarPanelSmallDmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Uninstalls item.",
+    "strInteractionTemplate": "ACTUninstallTEMP",
+    "CTThem": "TIsSolarPanelSmallInstalledDmg",
+    "aInputs": [],
+    "fTargetPointRange": 3.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmSolarPanelSmallDmgLoose"
+    ],
+    "strJobType": "uninstall",
+    "strAllowLootCTsUs": "CTWorkProgressPOWR",
+    "strAllowLootCTsThem": "CONDUninstallProgressx5",
+    "strProgressStat": "StatUninstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRatePOWR"
+  },
+  {
+    "strName": "SolarPanelMediumInstall",
+    "strActionCO": "ItmSolarPanelMediumLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Installs item.",
+    "strInteractionTemplate": "ACTInstallTEMP",
+    "CTThem": "TIsSolarPanelMediumUninstalled",
+    "aInputs": [
+      "TIsSolarPanelMediumUninstalled=1.0x1"
+    ],
+    "fTargetPointRange": 3.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmSolarPanelMedium"
+    ],
+    "strStartInstall": "ItmSolarPanelMedium",
+    "strBuildType": "POWR",
+    "strJobType": "install",
+    "strAllowLootCTsUs": "CTWorkProgressPOWR",
+    "strAllowLootCTsThem": "CONDInstallProgressx5",
+    "strProgressStat": "StatInstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRatePOWR"
+  },
+  {
+    "strName": "SolarPanelMediumUninstall",
+    "strActionCO": "ItmSolarPanelMedium",
+    "strActionGroup": "Work",
+    "strTooltip": "Uninstalls item.",
+    "strInteractionTemplate": "ACTUninstallTEMP",
+    "CTThem": "TIsSolarPanelMediumInstalled",
+    "aInputs": [],
+    "fTargetPointRange": 3.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmSolarPanelMediumLoose"
+    ],
+    "strJobType": "uninstall",
+    "strAllowLootCTsUs": "CTWorkProgressPOWR",
+    "strAllowLootCTsThem": "CONDUninstallProgressx5",
+    "strProgressStat": "StatUninstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRatePOWR"
+  },
+  {
+    "strName": "SolarPanelMediumInstallDmg",
+    "strActionCO": "ItmSolarPanelMediumDmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Installs item.",
+    "strInteractionTemplate": "ACTInstallTEMP",
+    "CTThem": "TIsSolarPanelMediumUninstalledDmg",
+    "aInputs": [
+      "TIsSolarPanelMediumUninstalledDmg=1.0x1"
+    ],
+    "fTargetPointRange": 3.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmSolarPanelMediumDmg"
+    ],
+    "strStartInstall": "ItmSolarPanelMediumDmg",
+    "strBuildType": "POWR",
+    "strJobType": "install",
+    "strAllowLootCTsUs": "CTWorkProgressPOWR",
+    "strAllowLootCTsThem": "CONDInstallProgressx5",
+    "strProgressStat": "StatInstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRatePOWR"
+  },
+  {
+    "strName": "SolarPanelMediumUninstallDmg",
+    "strActionCO": "ItmSolarPanelMediumDmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Uninstalls item.",
+    "strInteractionTemplate": "ACTUninstallTEMP",
+    "CTThem": "TIsSolarPanelMediumInstalledDmg",
+    "aInputs": [],
+    "fTargetPointRange": 3.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmSolarPanelMediumDmgLoose"
+    ],
+    "strJobType": "uninstall",
+    "strAllowLootCTsUs": "CTWorkProgressPOWR",
+    "strAllowLootCTsThem": "CONDUninstallProgressx5",
+    "strProgressStat": "StatUninstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRatePOWR"
+  }
+]

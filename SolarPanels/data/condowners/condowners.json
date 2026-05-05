@@ -1,0 +1,430 @@
+[
+  {
+    "strName": "ItmSolarPanelSmall",
+    "strNameShort": "Solar Panel",
+    "strNameFriendly": "Small Solar Panel",
+    "strDesc": "A small, efficient solar panel designed for use on spacecraft. When exposed to sunlight, it generates power that can be used to charge batteries or power other systems.",
+    "strItemDef": "ItmSolarPanelSmall",
+    "strType": "Item",
+    "strLoot": null,
+    "aInteractions": [
+      "GUIBattery"
+    ],
+    "aStartingConds": [
+      "IsInstalled=1.0x1",
+      "IsSolarPanelSmall=1.0x1",
+      "IsBattery01=1.0x1",
+      "IsTypeC=1.0x1",
+      "IsPowerGen=1.0x1",
+      "IsPowerRecalc=1.0x1",
+      "IsPowerStorage=1.0x1",
+      "IsReadyRecharge=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCollectiveElectric=1.0x1",
+      "IsReadyHeat=1.0x1",
+      "StatHeatArea=1.0x0.5",
+      "StatHeatVol=1.0x0.05",
+      "StatSolidTemp=1.0x310.0",
+      "StatBasePrice=1.0x944.0",
+      "StatDismantleProgressMax=1.0x80",
+      "StatInstallProgressMax=1.0x560",
+      "StatUninstallProgressMax=1.0x560",
+      "StatRepairProgressMax=1.0x1700",
+      "StatPower=1.0x0.0",
+      "StatPowerMax=1.0x0.5",
+      "StatMass=1.0x27.0",
+      "StatDamageMax=1.0x6",
+      "IsTechnology=1.0x1",
+      "IsPowerObservable=1.0x1",
+      "IsCategoryElectronics=1.0x1"
+    ],
+    "mapCondTolerance": [
+    ],
+    "mapPoints": [
+      "use,0,-8",
+      "PowerOutput,0,-8",
+      "PowerSource,0,-8"
+    ],
+    "aUpdateCommands": [
+      "Destructable,StatDamage,ACTSolarPanelSmallDamage,StatDamageMax,1.0"
+    ],
+    "aTickers": [
+    ],
+    "mapGUIPropMaps": [
+      "Panel A",
+      "MeterBattery"
+    ],
+    "strPortraitImg": "ItmSolarPanelSmall",
+    "jsonPI": "ItmSolarPanelSmallPI",
+    "aComponents": [
+      "SolarPanels.SolarPanelSmallIC,SolarPanels"
+    ],
+    "strAudioEmitter": "ItmBattery02Sound"
+  },
+  {
+    "strName": "ItmSolarPanelSmallDmg",
+    "strNameShort": "Solar Panel",
+    "strNameFriendly": "Small Solar Panel (Damaged)",
+    "strDesc": "A small, efficient solar panel designed for use on spacecraft. When exposed to sunlight, it generates power that can be used to charge batteries or power other systems.",
+    "strItemDef": "ItmSolarPanelSmallDmg",
+    "strType": "Item",
+    "strLoot": null,
+    "aInteractions": [
+    ],
+    "aStartingConds": [
+      "IsDamaged=1.0x1",
+      "IsTypeC=1.0x1",
+      "IsSolarPanelSmall=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsBattery01=1.0x1",
+      "IsPowerRecalc=1.0x1",
+      "IsPowerStorage=1.0x1",
+      "IsSolid=1.0x1.0",
+      "IsCollectiveElectric=1.0x1",
+      "StatBasePrice=1.0x390.0",      
+      "StatDismantleProgressMax=1.0x105",
+      "StatInstallProgressMax=1.0x750",
+      "StatUninstallProgressMax=1.0x750",
+      "StatRepairProgressMax=1.0x2250",
+      "StatMass=1.0x27.0",
+      "StatDamageMax=1.0x18",
+      "IsTechnology=1.0x1",
+      "IsPowerObservable=1.0x1",
+      "IsCategoryElectronics=1.0x1"
+    ],
+    "mapCondTolerance": [
+    ],
+    "mapPoints": [
+      "use,0,0",
+      "Output,0,-16"
+    ],
+    "aUpdateCommands": [
+      "Destructable,StatDamage,ACTSolarPanelSmallDestroy,StatDamageMax,1.0"
+    ],
+    "aTickers": [
+    ],
+    "mapGUIPropMaps": [
+    ],
+    "strPortraitImg": "ItmSolarPanelSmallDmg"
+  },
+  {
+    "strName": "ItmSolarPanelSmallLoose",
+    "strNameShort": "Solar Panel",
+    "strNameFriendly": "Small Solar Panel (Loose)",
+    "strDesc": "A small, efficient solar panel designed for use on spacecraft. When exposed to sunlight, it generates power that can be used to charge batteries or power other systems.",
+    "strItemDef": "ItmSolarPanelSmallLoose",
+    "strType": "Item",
+    "aInteractions": [
+      "GUIBattery",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds": [
+      "IsSolarPanelSmall=1.0x1",
+      "IsBattery01=1.0x1",
+      "IsTypeC=1.0x1",
+      "IsPowerStorage=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCollectiveElectric=1.0x1",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x944.0",
+      "StatDismantleProgressMax=1.0x80",
+      "StatInstallProgressMax=1.0x560",
+      "StatUninstallProgressMax=1.0x560",
+      "StatRepairProgressMax=1.0x1700",
+      "StatPower=1.0x0.0",
+      "StatPowerMax=1.0x0.5",
+      "StatMass=1.0x27.0",
+      "StatDamageMax=1.0x6",
+      "IsTechnology=1.0x1",
+      "IsPowerObservable=1.0x1",
+      "IsCategoryElectronics=1.0x1"
+    ],
+    "aUpdateCommands": [
+      "Destructable,StatDamage,ACTSolarPanelSmallLooseDestroy,StatDamageMax,1.0"
+    ],
+    "mapPoints": [
+      "use,0,-16"
+    ],
+    "mapSlotEffects": [
+      "drag",
+      "Blank"
+    ],
+    "mapGUIPropMaps": [
+      "Panel A",
+      "MeterBattery"
+    ],
+    "strPortraitImg": "ItmSolarPanelSmallLoose",
+    "jsonPI": "ItmSolarPanelSmallPI"
+  },
+  {
+    "strName": "ItmSolarPanelSmallDmgLoose",
+    "strNameShort": "Solar Panel",
+    "strNameFriendly": "Small Solar Panel (Damaged) (Loose)",
+    "strDesc": "A small, efficient solar panel designed for use on spacecraft. When exposed to sunlight, it generates power that can be used to charge batteries or power other systems.",
+    "strItemDef": "ItmSolarPanelSmallDmgLoose",
+    "strType": "Item",
+    "aInteractions": [
+      "GUIBattery",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds": [
+      "IsDamaged=1.0x1",
+      "IsSolarPanelSmall=1.0x1",
+      "IsBattery01=1.0x1",
+      "IsTypeC=1.0x1",
+      "IsPowerRecalc=1.0x1",
+      "IsPowerStorage=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCollectiveElectric=1.0x1",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x944.0",
+      "StatDismantleProgressMax=1.0x80",
+      "StatInstallProgressMax=1.0x560",
+      "StatUninstallProgressMax=1.0x560",
+      "StatRepairProgressMax=1.0x1700",
+      "StatPower=1.0x0.0",
+      "StatPowerMax=1.0x0.5",
+      "StatMass=1.0x27.0",
+      "StatDamageMax=1.0x4",
+      "IsTechnology=1.0x1",
+      "IsPowerObservable=1.0x1",
+      "IsCategoryElectronics=1.0x1"
+    ],
+    "aUpdateCommands": [
+      "Destructable,StatDamage,ACTSolarPanelSmallLooseDamage,StatDamageMax,1.0"
+    ],
+    "mapPoints": [
+      "use,0,-16"
+    ],
+    "mapSlotEffects": [
+      "drag",
+      "Blank"
+    ],
+    "mapGUIPropMaps": [
+      "Panel A",
+      "MeterBattery"
+    ],
+    "strPortraitImg": "ItmSolarPanelSmallDmg",
+    "jsonPI": "ItmSolarPanelSmallPI"
+  },
+  {
+    "strName": "ItmSolarPanelMedium",
+    "strNameShort": "Solar Panel",
+    "strNameFriendly": "Medium Solar Panel",
+    "strDesc": "A medium, efficient solar panel designed for use on spacecraft. When exposed to sunlight, it generates power that can be used to charge batteries or power other systems.",
+    "strItemDef": "ItmSolarPanelMedium",
+    "strType": "Item",
+    "strLoot": null,
+    "aInteractions": [
+      "GUIBattery"
+    ],
+    "aStartingConds": [
+      "IsInstalled=1.0x1",
+      "IsSolarPanelMedium=1.0x1",
+      "IsBattery01=1.0x1",
+      "IsTypeC=1.0x1",
+      "IsPowerGen=1.0x1",
+      "IsPowerRecalc=1.0x1",
+      "IsPowerStorage=1.0x1",
+      "IsReadyRecharge=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCollectiveElectric=1.0x1",
+      "IsReadyHeat=1.0x1",
+      "StatHeatArea=1.0x0.5",
+      "StatHeatVol=1.0x0.05",
+      "StatSolidTemp=1.0x310.0",
+      "StatBasePrice=1.0x944.0",
+      "StatDismantleProgressMax=1.0x80",
+      "StatInstallProgressMax=1.0x560",
+      "StatUninstallProgressMax=1.0x560",
+      "StatRepairProgressMax=1.0x1700",
+      "StatPower=1.0x0.0",
+      "StatPowerMax=1.0x0.5",
+      "StatMass=1.0x45.0",
+      "StatDamageMax=1.0x6",
+      "IsTechnology=1.0x1",
+      "IsPowerObservable=1.0x1",
+      "IsCategoryElectronics=1.0x1"
+    ],
+    "mapCondTolerance": [
+    ],
+    "mapPoints": [
+      "use,0,-8",
+      "PowerOutput,0,-8",
+      "PowerSource,0,-8"
+    ],
+    "aUpdateCommands": [
+      "Destructable,StatDamage,ACTSolarPanelMediumDamage,StatDamageMax,1.0"
+    ],
+    "aTickers": [
+    ],
+    "mapGUIPropMaps": [
+      "Panel A",
+      "MeterBattery"
+    ],
+    "strPortraitImg": "ItmSolarPanelMedium",
+    "jsonPI": "ItmSolarPanelMediumPI",
+    "aComponents": [
+      "SolarPanels.SolarPanelMediumIC,SolarPanels"
+    ],
+    "strAudioEmitter": "ItmBattery02Sound"
+  },
+  {
+    "strName": "ItmSolarPanelMediumDmg",
+    "strNameShort": "Solar Panel",
+    "strNameFriendly": "Medium Solar Panel (Damaged)",
+    "strDesc": "A medium, efficient solar panel designed for use on spacecraft. When exposed to sunlight, it generates power that can be used to charge batteries or power other systems.",
+    "strItemDef": "ItmSolarPanelMediumDmg",
+    "strType": "Item",
+    "strLoot": null,
+    "aInteractions": [
+    ],
+    "aStartingConds": [
+      "IsDamaged=1.0x1",
+      "IsTypeC=1.0x1",
+      "IsSolarPanelMedium=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsBattery01=1.0x1",
+      "IsPowerRecalc=1.0x1",
+      "IsPowerStorage=1.0x1",
+      "IsSolid=1.0x1.0",
+      "IsCollectiveElectric=1.0x1",
+      "StatBasePrice=1.0x390.0",
+      "StatDismantleProgressMax=1.0x105",
+      "StatInstallProgressMax=1.0x750",
+      "StatUninstallProgressMax=1.0x750",
+      "StatRepairProgressMax=1.0x2250",
+      "StatMass=1.0x45.0",
+      "StatDamageMax=1.0x18",
+      "IsTechnology=1.0x1",
+      "IsPowerObservable=1.0x1",
+      "IsCategoryElectronics=1.0x1"
+    ],
+    "mapCondTolerance": [
+    ],
+    "mapPoints": [
+      "use,0,0",
+      "Output,0,-16"
+    ],
+    "aUpdateCommands": [
+      "Destructable,StatDamage,ACTSolarPanelMediumDestroy,StatDamageMax,1.0"
+    ],
+    "aTickers": [
+    ],
+    "mapGUIPropMaps": [
+    ],
+    "strPortraitImg": "ItmSolarPanelMediumDmg"
+  },
+  {
+    "strName": "ItmSolarPanelMediumLoose",
+    "strNameShort": "Solar Panel",
+    "strNameFriendly": "Medium Solar Panel (Loose)",
+    "strDesc": "A medium, efficient solar panel designed for use on spacecraft. When exposed to sunlight, it generates power that can be used to charge batteries or power other systems.",
+    "strItemDef": "ItmSolarPanelMediumLoose",
+    "strType": "Item",
+    "aInteractions": [
+      "GUIBattery",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds": [
+      "IsSolarPanelMedium=1.0x1",
+      "IsBattery01=1.0x1",
+      "IsTypeC=1.0x1",
+      "IsPowerStorage=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCollectiveElectric=1.0x1",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x944.0",
+      "StatDismantleProgressMax=1.0x80",
+      "StatInstallProgressMax=1.0x560",
+      "StatUninstallProgressMax=1.0x560",
+      "StatRepairProgressMax=1.0x1700",
+      "StatPower=1.0x0.0",
+      "StatPowerMax=1.0x0.5",
+      "StatMass=1.0x45.0",
+      "StatDamageMax=1.0x6",
+      "IsTechnology=1.0x1",
+      "IsPowerObservable=1.0x1",
+      "IsCategoryElectronics=1.0x1"
+    ],
+    "aUpdateCommands": [
+      "Destructable,StatDamage,ACTSolarPanelMediumLooseDestroy,StatDamageMax,1.0"
+    ],
+    "mapPoints": [
+      "use,0,-8"
+    ],
+    "mapSlotEffects": [
+      "drag",
+      "Blank"
+    ],
+    "mapGUIPropMaps": [
+      "Panel A",
+      "MeterBattery"
+    ],
+    "strPortraitImg": "ItmSolarPanelMediumLoose",
+    "jsonPI": "Battery02cLoose"
+  },
+  {
+    "strName": "ItmSolarPanelMediumDmgLoose",
+    "strNameShort": "Solar Panel",
+    "strNameFriendly": "Medium Solar Panel (Damaged) (Loose)",
+    "strDesc": "A medium, efficient solar panel designed for use on spacecraft. When exposed to sunlight, it generates power that can be used to charge batteries or power other systems.",
+    "strItemDef": "ItmSolarPanelMediumDmgLoose",
+    "strType": "Item",
+    "aInteractions": [
+      "GUIBattery",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds": [
+      "IsDamaged=1.0x1",
+      "IsSolarPanelMedium=1.0x1",
+      "IsBattery01=1.0x1",
+      "IsTypeC=1.0x1",
+      "IsPowerRecalc=1.0x1",
+      "IsPowerStorage=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCollectiveElectric=1.0x1",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x944.0",
+      "StatDismantleProgressMax=1.0x80",
+      "StatInstallProgressMax=1.0x560",
+      "StatUninstallProgressMax=1.0x560",
+      "StatRepairProgressMax=1.0x1700",
+      "StatPower=1.0x0.0",
+      "StatPowerMax=1.0x0.5",
+      "StatMass=1.0x45.0",
+      "StatDamageMax=1.0x6",
+      "IsTechnology=1.0x1",
+      "IsPowerObservable=1.0x1",
+      "IsCategoryElectronics=1.0x1"
+    ],
+    "aUpdateCommands": [
+      "Destructable,StatDamage,ACTSolarPanelMediumLooseDamage,StatDamageMax,1.0"
+    ],
+    "mapPoints": [
+      "use,0,-8"
+    ],
+    "mapSlotEffects": [
+      "drag",
+      "Blank"
+    ],
+    "mapGUIPropMaps": [
+      "Panel A",
+      "MeterBattery"
+    ],
+    "strPortraitImg": "ItmSolarPanelMediumDmgLoose",
+    "jsonPI": "Battery02cLoose"
+  }
+]

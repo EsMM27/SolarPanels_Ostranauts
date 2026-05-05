@@ -1,0 +1,21 @@
+[
+  {
+    "strName": "Simple Conditions",
+    "aValues": [
+      "IsSolarPanelSmall",
+      "Solar Panel",
+      "[us] [is] a solar panel.",
+      "0",
+      "0",
+      "Neutral",
+      "false",
+      "IsSolarPanelMedium",
+      "Solar Panel",
+      "[us] [is] a medium solar panel.",
+      "0",
+      "0",
+      "Neutral",
+      "false"
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+
+  [
+  {
+    "strName": "ItmSolarPanelSmallPI",
+    "aInputPts": [ "PowerOutput" ],
+    "fAmount": 1.0,
+    "strRechargeCT": "TIsReadyRecharge",
+    "bAllowExtPower": false
+  },
+  {
+    "strName": "ItmSolarPanelMediumPI",
+    "aInputPts": [ "PowerOutput" ],
+    "fAmount": 1.0,
+    "strRechargeCT": "TIsReadyRecharge",
+    "bAllowExtPower": false
+  }
+  ]

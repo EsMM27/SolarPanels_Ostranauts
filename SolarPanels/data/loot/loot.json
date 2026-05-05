@@ -1,0 +1,74 @@
+[
+  {
+    "strName": "ACTSolarPanelSmallDamage",
+    "aCOs": [
+      "MSSolarPanelSmallDamage=1.0x1"
+    ],
+    "aLoots": [
+    ],
+    "strType": "interaction"
+  },
+  {
+    "strName": "ACTSolarPanelSmallDestroy",
+    "aCOs": [
+      "MSSolarPanelSmallDestroy=1.0x1"
+    ],
+    "aLoots": [
+    ],
+    "strType": "interaction"
+  },
+  {
+    "strName": "ACTSolarPanelSmallLooseDamage",
+    "aCOs": [
+      "MSSolarPanelSmallLooseDamage=1.0x1"
+    ],
+    "aLoots": [
+    ],
+    "strType": "interaction"
+  },
+  {
+    "strName": "ACTSolarPanelSmallLooseDestroy",
+    "aCOs": [
+      "MSSolarPanelSmallLooseDestroy=1.0x1"
+    ],
+    "aLoots": [
+    ],
+    "strType": "interaction"
+  },
+  {
+    "strName": "ACTSolarPanelMediumDamage",
+    "aCOs": [
+      "MSSolarPanelMediumDamage=1.0x1"
+    ],
+    "aLoots": [
+    ],
+    "strType": "interaction"
+  },
+  {
+    "strName": "ACTSolarPanelMediumDestroy",
+    "aCOs": [
+      "MSSolarPanelMediumDestroy=1.0x1"
+    ],
+    "aLoots": [
+    ],
+    "strType": "interaction"
+  },
+  {
+    "strName": "ACTSolarPanelMediumLooseDamage",
+    "aCOs": [
+      "MSSolarPanelMediumLooseDamage=1.0x1"
+    ],
+    "aLoots": [
+    ],
+    "strType": "interaction"
+  },
+  {
+    "strName": "ACTSolarPanelMediumLooseDestroy",
+    "aCOs": [
+      "MSSolarPanelMediumLooseDestroy=1.0x1"
+    ],
+    "aLoots": [
+    ],
+    "strType": "interaction"
+  }
+]

@@ -1,0 +1,94 @@
+ [
+ {
+    "strName": "SolarPanelSmallDismantle",
+    "strActionCO": "ItmSolarPanelSmall",
+    "strActionGroup": "Work",
+    "strTooltip": "Carefully deconstructs item into component parts (Non-reversible).",
+    "strInteractionTemplate": "ACTDismantleTEMP",
+    "CTThem": "TCanBeDismantled",
+    "aInputs": [],
+    "fTargetPointRange": 3.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "strLootOut": "ItmSolarPanelSmallDismantle",
+    "strJobType": "dismantle",
+    "strAllowLootCTsUs": "CTWorkProgressPOWR",
+    "strAllowLootCTsThem": "CONDDismantleProgress",
+    "strProgressStat": "StatDismantleProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRatePOWR"
+  },
+  {
+    "strName": "SolarPanelSmallLooseDismantle",
+    "strActionCO": "ItmSolarPanelSmallLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Carefully deconstructs item into component parts (Non-reversible).",
+    "strInteractionTemplate": "ACTDismantleTEMP",
+    "CTThem": "TCanBeDismantled",
+    "aInputs": [],
+    "fTargetPointRange": 3.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "strLootOut": "ItmSolarPanelSmallLooseDismantle",
+    "strJobType": "dismantle",
+    "strAllowLootCTsUs": "CTWorkProgressPOWR",
+    "strAllowLootCTsThem": "CONDDismantleProgress",
+    "strProgressStat": "StatDismantleProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRatePOWR"
+  },
+  {
+    "strName": "SolarPanelMediumDismantle",
+    "strActionCO": "ItmSolarPanelMedium",
+    "strActionGroup": "Work",
+    "strTooltip": "Carefully deconstructs item into component parts (Non-reversible).",
+    "strInteractionTemplate": "ACTDismantleTEMP",
+    "CTThem": "TCanBeDismantled",
+    "aInputs": [],
+    "fTargetPointRange": 3.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "strLootOut": "ItmSolarPanelMediumDismantle",
+    "strJobType": "dismantle",
+    "strAllowLootCTsUs": "CTWorkProgressPOWR",
+    "strAllowLootCTsThem": "CONDDismantleProgress",
+    "strProgressStat": "StatDismantleProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRatePOWR"
+  },
+  {
+    "strName": "SolarPanelMediumLooseDismantle",
+    "strActionCO": "ItmSolarPanelMediumLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Carefully deconstructs item into component parts (Non-reversible).",
+    "strInteractionTemplate": "ACTDismantleTEMP",
+    "CTThem": "TCanBeDismantled",
+    "aInputs": [],
+    "fTargetPointRange": 3.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "strLootOut": "ItmSolarPanelMediumLooseDismantle",
+    "strJobType": "dismantle",
+    "strAllowLootCTsUs": "CTWorkProgressPOWR",
+    "strAllowLootCTsThem": "CONDDismantleProgress",
+    "strProgressStat": "StatDismantleProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRatePOWR"
+  } 
+]
