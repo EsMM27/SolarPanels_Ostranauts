@@ -15,6 +15,13 @@
       "0",
       "0",
       "Neutral",
+      "false",
+      "IsSolarPanelLarge",
+      "Solar Panel",
+      "[us] [is] a large solar panel.",
+      "0",
+      "0",
+      "Neutral",
       "false"
     ]
   }

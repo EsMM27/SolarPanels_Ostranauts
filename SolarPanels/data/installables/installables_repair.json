@@ -110,5 +110,63 @@
     "strProgressStat": "StatRepairProgress",
     "strCTThemMultCondTools": "IsToolMortorq",
     "strCTThemMultCondUs": "StatInstallRatePOWR"
+  },
+  {
+    "strName": "SolarPanelLargeRepair",
+    "strActionCO": "ItmSolarPanelLargeDmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Repairs item to a functional state.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMobo=1.0x1",
+      "TIsPartsElecSmall=1.0x5",
+      "TIsMotor=1.0x2"
+    ],
+    "fTargetPointRange": 3.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmSolarPanelLarge"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressPOWR",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRatePOWR"
+  },
+  {
+    "strName": "SolarPanelLargeLooseRepair",
+    "strActionCO": "ItmSolarPanelLargeDmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Repairs item to a functional state.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMobo=1.0x1",
+      "TIsPartsElecSmall=1.0x5",
+      "TIsMotor=1.0x2"
+    ],
+    "fTargetPointRange": 3.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmSolarPanelLargeLoose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressPOWR",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRatePOWR"
   }
 ]

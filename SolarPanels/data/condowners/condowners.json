@@ -179,7 +179,6 @@
       "IsTypeC=1.0x1",
       "IsPowerRecalc=1.0x1",
       "IsPowerStorage=1.0x1",
-      "IsSalvageValueHigh=1.0x1.0",
       "IsSolid=1.0x1.0",
       "IsCollectiveElectric=1.0x1",
       "IsCumbersome=1.0x1.0",
@@ -393,7 +392,6 @@
       "IsTypeC=1.0x1",
       "IsPowerRecalc=1.0x1",
       "IsPowerStorage=1.0x1",
-      "IsSalvageValueHigh=1.0x1.0",
       "IsSolid=1.0x1.0",
       "IsCollectiveElectric=1.0x1",
       "IsCumbersome=1.0x1.0",
@@ -425,6 +423,219 @@
       "MeterBattery"
     ],
     "strPortraitImg": "ItmSolarPanelMediumDmgLoose",
+    "jsonPI": "Battery02cLoose"
+  },
+  {
+    "strName": "ItmSolarPanelLarge",
+    "strNameShort": "Solar Panel",
+    "strNameFriendly": "Large Solar Panel",
+    "strDesc": "A large, efficient solar panel designed for use on spacecraft. When exposed to sunlight, it generates power that can be used to charge batteries or power other systems.",
+    "strItemDef": "ItmSolarPanelLarge",
+    "strType": "Item",
+    "strLoot": null,
+    "aInteractions": [
+      "GUIBattery"
+    ],
+    "aStartingConds": [
+      "IsInstalled=1.0x1",
+      "IsSolarPanelLarge=1.0x1",
+      "IsBattery01=1.0x1",
+      "IsTypeC=1.0x1",
+      "IsPowerGen=1.0x1",
+      "IsPowerRecalc=1.0x1",
+      "IsPowerStorage=1.0x1",
+      "IsReadyRecharge=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCollectiveElectric=1.0x1",
+      "IsReadyHeat=1.0x1",
+      "StatHeatArea=1.0x1.0",
+      "StatHeatVol=1.0x0.1",
+      "StatSolidTemp=1.0x310.0",
+      "StatBasePrice=1.0x5890.0",
+      "StatDismantleProgressMax=1.0x160",
+      "StatInstallProgressMax=1.0x1000",
+      "StatUninstallProgressMax=1.0x1000",
+      "StatRepairProgressMax=1.0x3000",
+      "StatPower=1.0x0.0",
+      "StatPowerMax=1.0x0.5",
+      "StatMass=1.0x95.0",
+      "StatDamageMax=1.0x8",
+      "IsTechnology=1.0x1",
+      "IsPowerObservable=1.0x1",
+      "IsCategoryElectronics=1.0x1"
+    ],
+    "mapCondTolerance": [
+    ],
+    "mapPoints": [
+      "use,0,-8",
+      "PowerOutput,0,-80",
+      "PowerSource,0,-80"
+    ],
+    "aUpdateCommands": [
+      "Destructable,StatDamage,ACTSolarPanelLargeDamage,StatDamageMax,1.0"
+    ],
+    "aTickers": [
+    ],
+    "mapGUIPropMaps": [
+      "Panel A",
+      "MeterBattery"
+    ],
+    "strPortraitImg": "ItmSolarPanelLarge",
+    "jsonPI": "ItmSolarPanelLargePI",
+    "aComponents": [
+      "SolarPanels.SolarPanelLargeIC,SolarPanels"
+    ],
+    "strAudioEmitter": "ItmBattery02Sound"
+  },
+  {
+    "strName": "ItmSolarPanelLargeDmg",
+    "strNameShort": "Solar Panel",
+    "strNameFriendly": "Large Solar Panel (Damaged)",
+    "strDesc": "A large, efficient solar panel designed for use on spacecraft. When exposed to sunlight, it generates power that can be used to charge batteries or power other systems.",
+    "strItemDef": "ItmSolarPanelLargeDmg",
+    "strType": "Item",
+    "strLoot": null,
+    "aInteractions": [
+    ],
+    "aStartingConds": [
+      "IsDamaged=1.0x1",
+      "IsTypeC=1.0x1",
+      "IsSolarPanelLarge=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsBattery01=1.0x1",
+      "IsPowerRecalc=1.0x1",
+      "IsPowerStorage=1.0x1",
+      "IsSolid=1.0x1.0",
+      "IsCollectiveElectric=1.0x1",
+      "StatBasePrice=1.0x4338.0",
+      "StatDismantleProgressMax=1.0x210",
+      "StatInstallProgressMax=1.0x1350",
+      "StatUninstallProgressMax=1.0x1350",
+      "StatRepairProgressMax=1.0x4000",
+      "StatMass=1.0x95.0",
+      "StatDamageMax=1.0x24",
+      "IsTechnology=1.0x1",
+      "IsPowerObservable=1.0x1",
+      "IsCategoryElectronics=1.0x1"
+    ],
+    "mapCondTolerance": [
+    ],
+    "mapPoints": [
+      "use,0,0",
+      "Output,0,-80"
+    ],
+    "aUpdateCommands": [
+      "Destructable,StatDamage,ACTSolarPanelLargeDestroy,StatDamageMax,1.0"
+    ],
+    "aTickers": [
+    ],
+    "mapGUIPropMaps": [
+    ],
+    "strPortraitImg": "ItmSolarPanelLargeDmg"
+  },
+  {
+    "strName": "ItmSolarPanelLargeLoose",
+    "strNameShort": "Solar Panel",
+    "strNameFriendly": "Large Solar Panel (Loose)",
+    "strDesc": "A large, efficient solar panel designed for use on spacecraft. When exposed to sunlight, it generates power that can be used to charge batteries or power other systems.",
+    "strItemDef": "ItmSolarPanelLargeLoose",
+    "strType": "Item",
+    "aInteractions": [
+      "GUIBattery",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds": [
+      "IsSolarPanelLarge=1.0x1",
+      "IsBattery01=1.0x1",
+      "IsTypeC=1.0x1",
+      "IsPowerStorage=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCollectiveElectric=1.0x1",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x5338.0",
+      "StatDismantleProgressMax=1.0x160",
+      "StatInstallProgressMax=1.0x1000",
+      "StatUninstallProgressMax=1.0x1000",
+      "StatRepairProgressMax=1.0x3000",
+      "StatPower=1.0x0.0",
+      "StatPowerMax=1.0x0.5",
+      "StatMass=1.0x95.0",
+      "StatDamageMax=1.0x8",
+      "IsTechnology=1.0x1",
+      "IsPowerObservable=1.0x1",
+      "IsCategoryElectronics=1.0x1"
+    ],
+    "aUpdateCommands": [
+      "Destructable,StatDamage,ACTSolarPanelLargeLooseDestroy,StatDamageMax,1.0"
+    ],
+    "mapPoints": [
+      "use,0,-8"
+    ],
+    "mapSlotEffects": [
+      "drag",
+      "Blank"
+    ],
+    "mapGUIPropMaps": [
+      "Panel A",
+      "MeterBattery"
+    ],
+    "strPortraitImg": "ItmSolarPanelLargeLoose",
+    "jsonPI": "Battery02cLoose"
+  },
+  {
+    "strName": "ItmSolarPanelLargeDmgLoose",
+    "strNameShort": "Solar Panel",
+    "strNameFriendly": "Large Solar Panel (Damaged) (Loose)",
+    "strDesc": "A large, efficient solar panel designed for use on spacecraft. When exposed to sunlight, it generates power that can be used to charge batteries or power other systems.",
+    "strItemDef": "ItmSolarPanelLargeDmgLoose",
+    "strType": "Item",
+    "aInteractions": [
+      "GUIBattery",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds": [
+      "IsDamaged=1.0x1",
+      "IsSolarPanelLarge=1.0x1",
+      "IsBattery01=1.0x1",
+      "IsTypeC=1.0x1",
+      "IsPowerRecalc=1.0x1",
+      "IsPowerStorage=1.0x1",
+      "IsSolid=1.0x1.0",
+      "IsCollectiveElectric=1.0x1",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x3838.0",
+      "StatDismantleProgressMax=1.0x160",
+      "StatInstallProgressMax=1.0x1000",
+      "StatUninstallProgressMax=1.0x1000",
+      "StatRepairProgressMax=1.0x3000",
+      "StatPower=1.0x0.0",
+      "StatPowerMax=1.0x0.5",
+      "StatMass=1.0x95.0",
+      "StatDamageMax=1.0x8",
+      "IsTechnology=1.0x1",
+      "IsPowerObservable=1.0x1",
+      "IsCategoryElectronics=1.0x1"
+    ],
+    "aUpdateCommands": [
+      "Destructable,StatDamage,ACTSolarPanelLargeLooseDamage,StatDamageMax,1.0"
+    ],
+    "mapPoints": [
+      "use,0,-8"
+    ],
+    "mapSlotEffects": [
+      "drag",
+      "Blank"
+    ],
+    "mapGUIPropMaps": [
+      "Panel A",
+      "MeterBattery"
+    ],
+    "strPortraitImg": "ItmSolarPanelLargeDmgLoose",
     "jsonPI": "Battery02cLoose"
   }
 ]

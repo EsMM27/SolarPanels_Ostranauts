@@ -116,5 +116,64 @@
     ],
     "aTriggers": [],
     "bAND": true
+  },
+  {
+    "strName": "TIsSolarPanelLargeInstalled",
+    "strCondName": "",
+    "fChance": 1.0,
+    "fCount": 1.0,
+    "aReqs": [
+      "IsSolarPanelLarge",
+      "IsInstalled"
+    ],
+    "aForbids": [
+      "IsDamaged"
+    ],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsSolarPanelLargeInstalledDmg",
+    "strCondName": "",
+    "fChance": 1.0,
+    "fCount": 1.0,
+    "aReqs": [
+      "IsSolarPanelLarge",
+      "IsInstalled",
+      "IsDamaged"
+    ],
+    "aForbids": [],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsSolarPanelLargeUninstalled",
+    "strCondName": "",
+    "fChance": 1.0,
+    "fCount": 1.0,
+    "aReqs": [
+      "IsSolarPanelLarge"
+    ],
+    "aForbids": [
+      "IsInstalled",
+      "IsDamaged"
+    ],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsSolarPanelLargeUninstalledDmg",
+    "strCondName": "",
+    "fChance": 1.0,
+    "fCount": 1.0,
+    "aReqs": [
+      "IsSolarPanelLarge",
+      "IsDamaged"
+    ],
+    "aForbids": [
+      "IsInstalled"
+    ],
+    "aTriggers": [],
+    "bAND": true
   }
 ]

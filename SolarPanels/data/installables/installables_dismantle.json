@@ -90,5 +90,51 @@
     "strProgressStat": "StatDismantleProgress",
     "strCTThemMultCondTools": "IsToolMortorq",
     "strCTThemMultCondUs": "StatInstallRatePOWR"
+  },
+  {
+    "strName": "SolarPanelLargeDismantle",
+    "strActionCO": "ItmSolarPanelLarge",
+    "strActionGroup": "Work",
+    "strTooltip": "Carefully deconstructs item into component parts (Non-reversible).",
+    "strInteractionTemplate": "ACTDismantleTEMP",
+    "CTThem": "TCanBeDismantled",
+    "aInputs": [],
+    "fTargetPointRange": 3.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "strLootOut": "ItmSolarPanelLargeDismantle",
+    "strJobType": "dismantle",
+    "strAllowLootCTsUs": "CTWorkProgressPOWR",
+    "strAllowLootCTsThem": "CONDDismantleProgress",
+    "strProgressStat": "StatDismantleProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRatePOWR"
+  },
+  {
+    "strName": "SolarPanelLargeLooseDismantle",
+    "strActionCO": "ItmSolarPanelLargeLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Carefully deconstructs item into component parts (Non-reversible).",
+    "strInteractionTemplate": "ACTDismantleTEMP",
+    "CTThem": "TCanBeDismantled",
+    "aInputs": [],
+    "fTargetPointRange": 3.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "strLootOut": "ItmSolarPanelLargeLooseDismantle",
+    "strJobType": "dismantle",
+    "strAllowLootCTsUs": "CTWorkProgressPOWR",
+    "strAllowLootCTsThem": "CONDDismantleProgress",
+    "strProgressStat": "StatDismantleProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRatePOWR"
   } 
 ]

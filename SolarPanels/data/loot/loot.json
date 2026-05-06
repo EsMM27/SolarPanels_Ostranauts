@@ -74,7 +74,7 @@
   {
     "strName" : "ItmRandomDamagedPartsSolar",
     "aCOs"    : [
-            "ItmSolarPanelSmallDmgLoose=0.5x1|ItmSolarPanelMediumDmgLoose=0.5x1"
+            "ItmSolarPanelSmallDmgLoose=0.333x1|ItmSolarPanelMediumDmgLoose=0.333x1|ItmSolarPanelLargeDmgLoose=0.333x1"
     ],
     "aLoots"  : [],
     "strType" : "item"

@@ -98,5 +98,55 @@
     "strProgressStat": "StatDamage",
     "strCTThemMultCondTools": "IsToolMortorq",
     "strCTThemMultCondUs": "StatInstallRatePOWR"
+  },
+  {
+    "strName": "SolarPanelLargeUndamage",
+    "strActionCO": "ItmSolarPanelLarge",
+    "strActionGroup": "Work",
+    "strTooltip": "Reduces item's wear and tear to prevent damage.",
+    "strInteractionTemplate": "ACTUndamageTEMP",
+    "CTThem": "TIsUndamageableNotContained",
+    "aInputs": [],
+    "fTargetPointRange": 3.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmSolarPanelLarge"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressPOWR",
+    "strAllowLootCTsThem": "CONDUndamageProgress",
+    "strProgressStat": "StatDamage",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRatePOWR"
+  },
+  {
+    "strName": "SolarPanelLargeLooseUndamage",
+    "strActionCO": "ItmSolarPanelLargeLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Reduces item's wear and tear to prevent damage.",
+    "strInteractionTemplate": "ACTUndamageTEMP",
+    "CTThem": "TIsUndamageableNotContained",
+    "aInputs": [],
+    "fTargetPointRange": 3.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmSolarPanelLargeLoose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressPOWR",
+    "strAllowLootCTsThem": "CONDUndamageProgress",
+    "strProgressStat": "StatDamage",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRatePOWR"
   }
 ]

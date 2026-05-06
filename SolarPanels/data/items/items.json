@@ -254,5 +254,181 @@
       "Blank", "Blank", "Blank", "TILFloor", "Blank", "Blank",
       "Blank", "Blank", "Blank", "Blank", "Blank", "Blank"
     ]
+  },
+  {
+    "strName": "ItmSolarPanelLarge",
+    "strImg": "ItmSolarPanelLarge",
+    "strImgNorm": "ItmSolarPanelLargen",
+    "strImgDamaged": "ItmSolarPanelLargeDmg",
+    "strDmgColor": "DamageTintNone",
+    "bLerp": false,
+    "fDmgComplexity": 800,
+    "nDmgMode": 1,
+    "fZScale": 0.75,
+    "nCols": 3,
+    "aLights": [],
+    "aSocketAdds": [
+      "TILExtFixtureAdds", "TILExtFixtureAdds", "TILExtFixtureAdds",
+      "TILExtFixtureAdds", "TILExtFixtureAdds", "TILExtFixtureAdds",
+      "TILExtFixtureAdds", "TILExtFixtureAdds", "TILExtFixtureAdds",
+      "TILExtFixtureAdds", "TILExtFixtureAdds", "TILExtFixtureAdds",
+      "TILExtFixtureAdds", "TILExtFixtureAdds", "TILExtFixtureAdds",
+      "TILExtFixtureAdds", "TILExtFixtureAdds", "TILExtFixtureAdds",
+      "TILExtFixtureAdds", "TILExtFixtureAdds", "TILExtFixtureAdds",
+      "TILExtFixtureAdds", "TILExtFixtureAdds", "TILExtFixtureAdds",
+      "TILExtFixtureAdds", "TILExtFixtureAdds", "TILExtFixtureAdds",
+      "TILWallDecoAdds", "TILWallDecoAdds", "TILWallDecoAdds",
+      "TILWallDecoAdds", "TILWallDecoAdds", "TILWallDecoAdds"
+    ],
+    "aSocketForbids": [
+      "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILAntennaForbids", "TILAntennaForbids", "TILAntennaForbids", "Blank",
+      "Blank", "TILAntennaForbids", "TILAntennaForbids", "TILAntennaForbids", "Blank",
+      "Blank", "TILAntennaForbids", "TILAntennaForbids", "TILAntennaForbids", "Blank",
+      "Blank", "TILAntennaForbids", "TILAntennaForbids", "TILAntennaForbids", "Blank",
+      "Blank", "TILAntennaForbids", "TILAntennaForbids", "TILAntennaForbids", "Blank",
+      "Blank", "TILAntennaForbids", "TILAntennaForbids", "TILAntennaForbids", "Blank",
+      "Blank", "TILAntennaForbids", "TILAntennaForbids", "TILAntennaForbids", "Blank",
+      "Blank", "TILAntennaForbids", "TILAntennaForbids", "TILAntennaForbids", "Blank",
+      "Blank", "TILAntennaForbids", "TILAntennaForbids", "TILAntennaForbids", "Blank",
+      "Blank", "Blank", "TILAntennaForbids", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs": [
+      "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "TILWall", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName": "ItmSolarPanelLargeDmg",
+    "strImg": "ItmSolarPanelLargeDmg",
+    "strImgNorm": "ItmSolarPanelLargeDmgn",
+    "strImgDamaged": "",
+    "strDmgColor": "DamageTintNone",
+    "bLerp": false,
+    "fDmgComplexity": 800,
+    "nDmgMode": 1,
+    "fZScale": 0.75,
+    "nCols": 3,
+    "aLights": [],
+    "aSocketAdds": [
+      "TILExtFixtureAdds", "TILExtFixtureAdds", "TILExtFixtureAdds",
+      "TILExtFixtureAdds", "TILExtFixtureAdds", "TILExtFixtureAdds",
+      "TILExtFixtureAdds", "TILExtFixtureAdds", "TILExtFixtureAdds",
+      "TILExtFixtureAdds", "TILExtFixtureAdds", "TILExtFixtureAdds",
+      "TILExtFixtureAdds", "TILExtFixtureAdds", "TILExtFixtureAdds",
+      "TILExtFixtureAdds", "TILExtFixtureAdds", "TILExtFixtureAdds",
+      "TILExtFixtureAdds", "TILExtFixtureAdds", "TILExtFixtureAdds",
+      "TILExtFixtureAdds", "TILExtFixtureAdds", "TILExtFixtureAdds",
+      "TILExtFixtureAdds", "TILExtFixtureAdds", "TILExtFixtureAdds",
+      "TILWallDecoAdds", "TILWallDecoAdds", "TILWallDecoAdds",
+      "TILWallDecoAdds", "TILWallDecoAdds", "TILWallDecoAdds"
+    ],
+    "aSocketForbids": [
+      "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILAntennaForbids", "TILAntennaForbids", "TILAntennaForbids", "Blank",
+      "Blank", "TILAntennaForbids", "TILAntennaForbids", "TILAntennaForbids", "Blank",
+      "Blank", "TILAntennaForbids", "TILAntennaForbids", "TILAntennaForbids", "Blank",
+      "Blank", "TILAntennaForbids", "TILAntennaForbids", "TILAntennaForbids", "Blank",
+      "Blank", "TILAntennaForbids", "TILAntennaForbids", "TILAntennaForbids", "Blank",
+      "Blank", "TILAntennaForbids", "TILAntennaForbids", "TILAntennaForbids", "Blank",
+      "Blank", "TILAntennaForbids", "TILAntennaForbids", "TILAntennaForbids", "Blank",
+      "Blank", "TILAntennaForbids", "TILAntennaForbids", "TILAntennaForbids", "Blank",
+      "Blank", "TILAntennaForbids", "TILAntennaForbids", "TILAntennaForbids", "Blank",
+      "Blank", "Blank", "TILAntennaForbids", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs": [
+      "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "TILWall", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName" : "ItmSolarPanelLargeLoose",
+    "strImg"  : "ItmSolarPanelLargeLoose",
+    "strImgNorm"  : "ItmSolarPanelLargeLoosen",
+    "strImgDamaged" : "ItmSolarPanelLargeDmgLoose",
+    "strDmgColor" : "DamageTintDefault",
+    "bLerp" : false,
+    "fDmgComplexity" : 800,
+    "nDmgMode" : 1,
+    "fZScale"  : 0.35,
+    "nCols"  : 2,
+    "aLights" : [],
+    "aSocketAdds"    : [
+      "TILItemAdds", "TILItemAdds",
+      "TILItemAdds", "TILItemAdds",
+      "TILItemAdds", "TILItemAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "TILItemForbids", "Blank",
+      "Blank", "TILItemForbids", "TILItemForbids", "Blank",
+      "Blank", "TILItemForbids", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName" : "ItmSolarPanelLargeDmgLoose",
+    "strImg"  : "ItmSolarPanelLargeDmgLoose",
+    "strImgNorm"  : "ItmSolarPanelLargeDmgLoosen",
+    "strImgDamaged" : "",
+    "strDmgColor" : "DamageTintDefault",
+    "bLerp" : false,
+    "fDmgComplexity" : 800,
+    "nDmgMode" : 1,
+    "fZScale"  : 0.35,
+    "nCols"  : 2,
+    "aLights" : [],
+    "aSocketAdds"    : [
+      "TILItemAdds", "TILItemAdds",
+      "TILItemAdds", "TILItemAdds",
+      "TILItemAdds", "TILItemAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "TILItemForbids", "Blank",
+      "Blank", "TILItemForbids", "TILItemForbids", "Blank",
+      "Blank", "TILItemForbids", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ]
   }
 ]

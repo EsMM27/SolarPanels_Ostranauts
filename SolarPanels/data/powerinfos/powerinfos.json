@@ -13,5 +13,12 @@
     "fAmount": 1.0,
     "strRechargeCT": "TIsReadyRecharge",
     "bAllowExtPower": false
+  },
+  {
+    "strName": "ItmSolarPanelLargePI",
+    "aInputPts": [ "PowerOutput" ],
+    "fAmount": 1.0,
+    "strRechargeCT": "TIsReadyRecharge",
+    "bAllowExtPower": false
   }
   ]

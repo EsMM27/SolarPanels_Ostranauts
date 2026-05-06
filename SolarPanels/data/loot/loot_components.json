@@ -115,5 +115,65 @@
     "aLoots"  : [
     ],
     "strType" : "item"
+  },
+  {
+    "strName" : "ItmSolarPanelLargeDismantle",
+    "aCOs"    : [
+      "ItmScrapAluminum=1.0x5",
+      "ItmScrapCarbonFiber=1.0x4",
+      "ItmComponentMobo01=1.0x1",
+      "ItmComponentMotor01=1.0x2-4",
+      "ItmPartsElecSmall01=1.0x8",
+      "ItmPartsMechSmall01=1.0x4",
+      "ItmScrapTrash=1.0x1-2"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmSolarPanelLargeComponentsAndSelf",
+    "aCOs"    : [
+      "ItmSolarPanelLargeDmg=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmSolarPanelLargeLooseComponentsAndSelf",
+    "aCOs"    : [
+      "ItmSolarPanelLargeDmgLoose=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmSolarPanelLargeComponentsShell",
+    "aCOs"    : [
+      "ItmScrapTrash=1.0x2-3",
+      "ItmScrapAluminum=1.0x3-4",
+      "ItmScrapCarbonFiber=1.0x2-3",
+      "ItmPartsElecSmall01=0.7x1-2"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmSolarPanelLargeLooseDismantle",
+    "aCOs"    : [
+      "ItmScrapAluminum=1.0x5",
+      "ItmScrapCarbonFiber=1.0x4",
+      "ItmComponentMobo01=1.0x1",
+      "ItmComponentMotor01=1.0x2-4",
+      "ItmPartsElecSmall01=1.0x8",
+      "ItmPartsMechSmall01=1.0x4",
+      "ItmScrapTrash=1.0x1-2"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
   }
 ]
