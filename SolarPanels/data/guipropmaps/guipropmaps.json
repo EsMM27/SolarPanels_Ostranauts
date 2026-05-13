@@ -1,0 +1,38 @@
+[
+  {
+    "strName": "SolarPanelControlsOn",
+    "dictGUIPropMap": [
+      "strGUIPrefab", "GUIAirPump",
+      "strFriendlyName", "Solar Panel",
+      "strGUIPrefabRight", "Panel Meter",
+      "strGUIPrefabLeft", null,
+      "strGUIPrefabUp", null,
+      "strGUIPrefabDown", null,
+      "strTitle", "Solar Panel Controls",
+      "strValidCOTrigger01", "",
+      "strCondMonitor01", "IsReadyRecharge",
+      "strSubPoint", "ignore",
+      "strAddPoint", null,
+      "strInput01", "",
+      "nKnobBus", "1"
+    ]
+  },
+  {
+    "strName": "SolarPanelControlsOff",
+    "dictGUIPropMap": [
+      "strGUIPrefab", "GUIAirPump",
+      "strFriendlyName", "Solar Panel",
+      "strGUIPrefabRight", "Panel Meter",
+      "strGUIPrefabLeft", null,
+      "strGUIPrefabUp", null,
+      "strGUIPrefabDown", null,
+      "strTitle", "Solar Panel Controls",
+      "strValidCOTrigger01", "",
+      "strCondMonitor01", "IsReadyRecharge",
+      "strSubPoint", "ignore",
+      "strAddPoint", null,
+      "strInput01", "",
+      "nKnobBus", "0"
+    ]
+  }
+]

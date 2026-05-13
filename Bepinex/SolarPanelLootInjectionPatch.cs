@@ -7,7 +7,8 @@ namespace SolarPanels
     [HarmonyPatch(typeof(DataHandler), "PostModLoadMainThread")]
     internal static class SolarPanelLootInjectionPatch
     {
-        private const string SolarDamagedPartsLoot = "ItmRandomDamagedPartsSolar=1.0x1-2";
+        private const string SolarPartsLoot = "ItmRandomPartsSolar=1.0x1-2";
+        private const string RadiatorPartsLoot = "ItmRandomPartsRadiator=1.0x1-2";
 
         private static readonly string[] TargetKioskLoots =
         {
@@ -28,7 +29,12 @@ namespace SolarPanels
             bool appendedAny = false;
             foreach (string lootName in TargetKioskLoots)
             {
-                if (TryAppendLootEntry(lootName, SolarDamagedPartsLoot))
+                if (TryAppendLootEntry(lootName, SolarPartsLoot))
+                {
+                    appendedAny = true;
+                }
+
+                if (TryAppendLootEntry(lootName, RadiatorPartsLoot))
                 {
                     appendedAny = true;
                 }
@@ -36,7 +42,7 @@ namespace SolarPanels
 
             if (appendedAny)
             {
-                SolarPanelPlugin.Log?.LogInfo("Injected solar panel loot into kiosk inventories.");
+                SolarPanelPlugin.Log?.LogInfo("Injected solar panel and radiator loot into kiosk inventories.");
             }
 
             _applied = true;

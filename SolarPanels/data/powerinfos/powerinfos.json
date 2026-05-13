@@ -5,6 +5,7 @@
     "aInputPts": [ "PowerOutput" ],
     "fAmount": 1.0,
     "strRechargeCT": "TIsReadyRecharge",
+    "strShutDownCT": "TIsConnctedSignalledOff",
     "bAllowExtPower": false
   },
   {
@@ -12,6 +13,7 @@
     "aInputPts": [ "PowerOutput" ],
     "fAmount": 1.0,
     "strRechargeCT": "TIsReadyRecharge",
+    "strShutDownCT": "TIsConnctedSignalledOff",
     "bAllowExtPower": false
   },
   {
@@ -19,6 +21,18 @@
     "aInputPts": [ "PowerOutput" ],
     "fAmount": 1.0,
     "strRechargeCT": "TIsReadyRecharge",
+    "strShutDownCT": "TIsConnctedSignalledOff",
     "bAllowExtPower": false
+  },
+  {
+    "strName": "Radiator01",
+    "aInputPts": [ "PowerA", "PowerB" ],
+    "fAmount": 7.6e-5,
+    "strIntPowerOn": "MSRadiator01OnAllow",
+    "strIntPowerOff": "MSRadiator01OffAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower": true
   }
   ]

@@ -70,11 +70,55 @@
     "aLoots": [
     ],
     "strType": "interaction"
+  },
+  {
+    "strName": "ACTRadiator01Damage",
+    "aCOs": [
+      "MSRadiator01Damage=1.0x1"
+    ],
+    "aLoots": [
+    ],
+    "strType": "interaction"
+  },
+  {
+    "strName": "ACTRadiator01Destroy",
+    "aCOs": [
+      "MSRadiator01Destroy=1.0x1"
+    ],
+    "aLoots": [
+    ],
+    "strType": "interaction"
+  },
+  {
+    "strName": "ACTRadiator01LooseDamage",
+    "aCOs": [
+      "MSRadiator01LooseDamage=1.0x1"
+    ],
+    "aLoots": [
+    ],
+    "strType": "interaction"
+  },
+  {
+    "strName": "ACTRadiator01LooseDestroy",
+    "aCOs": [
+      "MSRadiator01LooseDestroy=1.0x1"
+    ],
+    "aLoots": [
+    ],
+    "strType": "interaction"
   },  
   {
-    "strName" : "ItmRandomDamagedPartsSolar",
+    "strName" : "ItmRandomPartsSolar",
     "aCOs"    : [
-            "ItmSolarPanelSmallDmgLoose=0.333x1|ItmSolarPanelMediumDmgLoose=0.333x1|ItmSolarPanelLargeDmgLoose=0.333x1"
+            "ItmSolarPanelSmallOffLoose=0.166x1|ItmSolarPanelSmallDmgLoose=0.166x1|ItmSolarPanelMediumOffLoose=0.166x1|ItmSolarPanelMediumDmgLoose=0.166x1|ItmSolarPanelLargeOffLoose=0.166x1|ItmSolarPanelLargeDmgLoose=0.166x1"
+    ],
+    "aLoots"  : [],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmRandomPartsRadiator",
+    "aCOs"    : [
+      "ItmRadiator01OffLoose=0.5x1|ItmRadiator01DmgLoose=0.5x1"
     ],
     "aLoots"  : [],
     "strType" : "item"

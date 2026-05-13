@@ -1,7 +1,7 @@
 [
   {
-    "strName": "SolarPanelSmallInstall",
-    "strActionCO": "ItmSolarPanelSmallLoose",
+    "strName": "SolarPanelSmallOffLooseInstall",
+    "strActionCO": "ItmSolarPanelSmallOffLoose",
     "strActionGroup": "Work",
     "strTooltip": "Installs item.",
     "strInteractionTemplate": "ACTInstallTEMP",
@@ -16,9 +16,9 @@
       "TIsToolMortorq"
     ],
     "aLootCOs": [
-      "ItmSolarPanelSmall"
+      "ItmSolarPanelSmallOn"
     ],
-    "strStartInstall": "ItmSolarPanelSmall",
+    "strStartInstall": "ItmSolarPanelSmallOn",
     "strBuildType": "POWR",
     "strJobType": "install",
     "strAllowLootCTsUs": "CTWorkProgressPOWR",
@@ -28,8 +28,8 @@
     "strCTThemMultCondUs": "StatInstallRatePOWR"
   },
   {
-    "strName": "SolarPanelSmallUninstall",
-    "strActionCO": "ItmSolarPanelSmall",
+    "strName": "SolarPanelSmallOnUninstall",
+    "strActionCO": "ItmSolarPanelSmallOn",
     "strActionGroup": "Work",
     "strTooltip": "Uninstalls item.",
     "strInteractionTemplate": "ACTUninstallTEMP",
@@ -42,7 +42,31 @@
       "TIsToolMortorq"
     ],
     "aLootCOs": [
-      "ItmSolarPanelSmallLoose"
+      "ItmSolarPanelSmallOffLoose"
+    ],
+    "strJobType": "uninstall",
+    "strAllowLootCTsUs": "CTWorkProgressPOWR",
+    "strAllowLootCTsThem": "CONDUninstallProgressx5",
+    "strProgressStat": "StatUninstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRatePOWR"
+  },
+  {
+    "strName": "SolarPanelSmallOffUninstall",
+    "strActionCO": "ItmSolarPanelSmallOff",
+    "strActionGroup": "Work",
+    "strTooltip": "Uninstalls item.",
+    "strInteractionTemplate": "ACTUninstallTEMP",
+    "CTThem": "TIsSolarPanelSmallInstalled",
+    "aInputs": [],
+    "fTargetPointRange": 3.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmSolarPanelSmallOffLoose"
     ],
     "strJobType": "uninstall",
     "strAllowLootCTsUs": "CTWorkProgressPOWR",
@@ -104,8 +128,8 @@
     "strCTThemMultCondUs": "StatInstallRatePOWR"
   },
   {
-    "strName": "SolarPanelMediumInstall",
-    "strActionCO": "ItmSolarPanelMediumLoose",
+    "strName": "SolarPanelMediumOffLooseInstall",
+    "strActionCO": "ItmSolarPanelMediumOffLoose",
     "strActionGroup": "Work",
     "strTooltip": "Installs item.",
     "strInteractionTemplate": "ACTInstallTEMP",
@@ -120,9 +144,9 @@
       "TIsToolMortorq"
     ],
     "aLootCOs": [
-      "ItmSolarPanelMedium"
+      "ItmSolarPanelMediumOn"
     ],
-    "strStartInstall": "ItmSolarPanelMedium",
+    "strStartInstall": "ItmSolarPanelMediumOn",
     "strBuildType": "POWR",
     "strJobType": "install",
     "strAllowLootCTsUs": "CTWorkProgressPOWR",
@@ -132,8 +156,8 @@
     "strCTThemMultCondUs": "StatInstallRatePOWR"
   },
   {
-    "strName": "SolarPanelMediumUninstall",
-    "strActionCO": "ItmSolarPanelMedium",
+    "strName": "SolarPanelMediumOnUninstall",
+    "strActionCO": "ItmSolarPanelMediumOn",
     "strActionGroup": "Work",
     "strTooltip": "Uninstalls item.",
     "strInteractionTemplate": "ACTUninstallTEMP",
@@ -146,7 +170,31 @@
       "TIsToolMortorq"
     ],
     "aLootCOs": [
-      "ItmSolarPanelMediumLoose"
+      "ItmSolarPanelMediumOffLoose"
+    ],
+    "strJobType": "uninstall",
+    "strAllowLootCTsUs": "CTWorkProgressPOWR",
+    "strAllowLootCTsThem": "CONDUninstallProgressx5",
+    "strProgressStat": "StatUninstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRatePOWR"
+  },
+  {
+    "strName": "SolarPanelMediumOffUninstall",
+    "strActionCO": "ItmSolarPanelMediumOff",
+    "strActionGroup": "Work",
+    "strTooltip": "Uninstalls item.",
+    "strInteractionTemplate": "ACTUninstallTEMP",
+    "CTThem": "TIsSolarPanelMediumInstalled",
+    "aInputs": [],
+    "fTargetPointRange": 3.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmSolarPanelMediumOffLoose"
     ],
     "strJobType": "uninstall",
     "strAllowLootCTsUs": "CTWorkProgressPOWR",
@@ -208,8 +256,8 @@
     "strCTThemMultCondUs": "StatInstallRatePOWR"
   },
   {
-    "strName": "SolarPanelLargeInstall",
-    "strActionCO": "ItmSolarPanelLargeLoose",
+    "strName": "SolarPanelLargeOffLooseInstall",
+    "strActionCO": "ItmSolarPanelLargeOffLoose",
     "strActionGroup": "Work",
     "strTooltip": "Installs item.",
     "strInteractionTemplate": "ACTInstallTEMP",
@@ -224,9 +272,9 @@
       "TIsToolMortorq"
     ],
     "aLootCOs": [
-      "ItmSolarPanelLarge"
+      "ItmSolarPanelLargeOn"
     ],
-    "strStartInstall": "ItmSolarPanelLarge",
+    "strStartInstall": "ItmSolarPanelLargeOn",
     "strBuildType": "POWR",
     "strJobType": "install",
     "strAllowLootCTsUs": "CTWorkProgressPOWR",
@@ -236,8 +284,8 @@
     "strCTThemMultCondUs": "StatInstallRatePOWR"
   },
   {
-    "strName": "SolarPanelLargeUninstall",
-    "strActionCO": "ItmSolarPanelLarge",
+    "strName": "SolarPanelLargeOnUninstall",
+    "strActionCO": "ItmSolarPanelLargeOn",
     "strActionGroup": "Work",
     "strTooltip": "Uninstalls item.",
     "strInteractionTemplate": "ACTUninstallTEMP",
@@ -250,7 +298,31 @@
       "TIsToolMortorq"
     ],
     "aLootCOs": [
-      "ItmSolarPanelLargeLoose"
+      "ItmSolarPanelLargeOffLoose"
+    ],
+    "strJobType": "uninstall",
+    "strAllowLootCTsUs": "CTWorkProgressPOWR",
+    "strAllowLootCTsThem": "CONDUninstallProgressx5",
+    "strProgressStat": "StatUninstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRatePOWR"
+  },
+  {
+    "strName": "SolarPanelLargeOffUninstall",
+    "strActionCO": "ItmSolarPanelLargeOff",
+    "strActionGroup": "Work",
+    "strTooltip": "Uninstalls item.",
+    "strInteractionTemplate": "ACTUninstallTEMP",
+    "CTThem": "TIsSolarPanelLargeInstalled",
+    "aInputs": [],
+    "fTargetPointRange": 3.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmSolarPanelLargeOffLoose"
     ],
     "strJobType": "uninstall",
     "strAllowLootCTsUs": "CTWorkProgressPOWR",
@@ -310,5 +382,133 @@
     "strProgressStat": "StatUninstallProgress",
     "strCTThemMultCondTools": "IsToolMortorq",
     "strCTThemMultCondUs": "StatInstallRatePOWR"
+  },
+  {
+    "strName": "Radiator01OffInstall",
+    "strActionCO": "ItmRadiator01OffLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Installs item.",
+    "strInteractionTemplate": "ACTInstallTEMP",
+    "CTThem": "TIsRadiatorUninstalled",
+    "aInputs": [
+      "TIsRadiatorUninstalled=1.0x1"
+    ],
+    "fTargetPointRange": 3.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmRadiator01Off"
+    ],
+    "strStartInstall": "ItmRadiator01Off",
+    "strBuildType": "HVAC",
+    "strJobType": "install",
+    "strAllowLootCTsUs": "CTWorkProgressHVAC",
+    "strAllowLootCTsThem": "CONDInstallProgressx5",
+    "strProgressStat": "StatInstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateHVAC"
+  },
+  {
+    "strName": "Radiator01OffDmgInstall",
+    "strActionCO": "ItmRadiator01DmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Installs item.",
+    "strInteractionTemplate": "ACTInstallTEMP",
+    "CTThem": "TIsRadiatorUninstalledDmg",
+    "aInputs": [
+      "TIsRadiatorUninstalledDmg=1.0x1"
+    ],
+    "fTargetPointRange": 3.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmRadiator01Dmg"
+    ],
+    "strStartInstall": "ItmRadiator01Dmg",
+    "strBuildType": "",
+    "strJobType": "install",
+    "strAllowLootCTsUs": "CTWorkProgressHVAC",
+    "strAllowLootCTsThem": "CONDInstallProgressx5",
+    "strProgressStat": "StatInstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateHVAC"
+  },
+  {
+    "strName": "Radiator01OffUninstall",
+    "strActionCO": "ItmRadiator01Off",
+    "strActionGroup": "Work",
+    "strTooltip": "Uninstalls item.",
+    "strInteractionTemplate": "ACTUninstallTEMP",
+    "CTThem": "TIsRadiatorInstalled",
+    "aInputs": [],
+    "fTargetPointRange": 3.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmRadiator01OffLoose"
+    ],
+    "strJobType": "uninstall",
+    "strAllowLootCTsUs": "CTWorkProgressHVAC",
+    "strAllowLootCTsThem": "CONDUninstallProgressx5",
+    "strProgressStat": "StatUninstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateHVAC"
+  },
+  {
+    "strName": "Radiator01OnUninstall",
+    "strActionCO": "ItmRadiator01On",
+    "strActionGroup": "Work",
+    "strTooltip": "Uninstalls item.",
+    "strInteractionTemplate": "ACTUninstallTEMP",
+    "CTThem": "TIsRadiatorInstalled",
+    "aInputs": [],
+    "fTargetPointRange": 3.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmRadiator01OffLoose"
+    ],
+    "strJobType": "uninstall",
+    "strAllowLootCTsUs": "CTWorkProgressHVAC",
+    "strAllowLootCTsThem": "CONDUninstallProgressx5",
+    "strProgressStat": "StatUninstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateHVAC"
+  },
+  {
+    "strName": "Radiator01DmgUninstall",
+    "strActionCO": "ItmRadiator01Dmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Uninstalls item.",
+    "strInteractionTemplate": "ACTUninstallTEMP",
+    "CTThem": "TIsRadiatorInstalledDmg",
+    "aInputs": [],
+    "fTargetPointRange": 3.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmRadiator01DmgLoose"
+    ],
+    "strJobType": "uninstall",
+    "strAllowLootCTsUs": "CTWorkProgressHVAC",
+    "strAllowLootCTsThem": "CONDUninstallProgressx5",
+    "strProgressStat": "StatUninstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateHVAC"
   }
 ]

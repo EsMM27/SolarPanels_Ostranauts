@@ -1,7 +1,7 @@
  [
  {
-    "strName": "SolarPanelSmallDismantle",
-    "strActionCO": "ItmSolarPanelSmall",
+    "strName": "SolarPanelSmallOnDismantle",
+    "strActionCO": "ItmSolarPanelSmallOn",
     "strActionGroup": "Work",
     "strTooltip": "Carefully deconstructs item into component parts (Non-reversible).",
     "strInteractionTemplate": "ACTDismantleTEMP",
@@ -23,8 +23,31 @@
     "strCTThemMultCondUs": "StatInstallRatePOWR"
   },
   {
-    "strName": "SolarPanelSmallLooseDismantle",
-    "strActionCO": "ItmSolarPanelSmallLoose",
+    "strName": "SolarPanelSmallOffDismantle",
+    "strActionCO": "ItmSolarPanelSmallOff",
+    "strActionGroup": "Work",
+    "strTooltip": "Carefully deconstructs item into component parts (Non-reversible).",
+    "strInteractionTemplate": "ACTDismantleTEMP",
+    "CTThem": "TCanBeDismantled",
+    "aInputs": [],
+    "fTargetPointRange": 3.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "strLootOut": "ItmSolarPanelSmallDismantle",
+    "strJobType": "dismantle",
+    "strAllowLootCTsUs": "CTWorkProgressPOWR",
+    "strAllowLootCTsThem": "CONDDismantleProgress",
+    "strProgressStat": "StatDismantleProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRatePOWR"
+  },
+  {
+    "strName": "SolarPanelSmallOffLooseDismantle",
+    "strActionCO": "ItmSolarPanelSmallOffLoose",
     "strActionGroup": "Work",
     "strTooltip": "Carefully deconstructs item into component parts (Non-reversible).",
     "strInteractionTemplate": "ACTDismantleTEMP",
@@ -46,8 +69,8 @@
     "strCTThemMultCondUs": "StatInstallRatePOWR"
   },
   {
-    "strName": "SolarPanelMediumDismantle",
-    "strActionCO": "ItmSolarPanelMedium",
+    "strName": "SolarPanelMediumOnDismantle",
+    "strActionCO": "ItmSolarPanelMediumOn",
     "strActionGroup": "Work",
     "strTooltip": "Carefully deconstructs item into component parts (Non-reversible).",
     "strInteractionTemplate": "ACTDismantleTEMP",
@@ -69,8 +92,31 @@
     "strCTThemMultCondUs": "StatInstallRatePOWR"
   },
   {
-    "strName": "SolarPanelMediumLooseDismantle",
-    "strActionCO": "ItmSolarPanelMediumLoose",
+    "strName": "SolarPanelMediumOffDismantle",
+    "strActionCO": "ItmSolarPanelMediumOff",
+    "strActionGroup": "Work",
+    "strTooltip": "Carefully deconstructs item into component parts (Non-reversible).",
+    "strInteractionTemplate": "ACTDismantleTEMP",
+    "CTThem": "TCanBeDismantled",
+    "aInputs": [],
+    "fTargetPointRange": 3.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "strLootOut": "ItmSolarPanelMediumDismantle",
+    "strJobType": "dismantle",
+    "strAllowLootCTsUs": "CTWorkProgressPOWR",
+    "strAllowLootCTsThem": "CONDDismantleProgress",
+    "strProgressStat": "StatDismantleProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRatePOWR"
+  },
+  {
+    "strName": "SolarPanelMediumOffLooseDismantle",
+    "strActionCO": "ItmSolarPanelMediumOffLoose",
     "strActionGroup": "Work",
     "strTooltip": "Carefully deconstructs item into component parts (Non-reversible).",
     "strInteractionTemplate": "ACTDismantleTEMP",
@@ -92,8 +138,8 @@
     "strCTThemMultCondUs": "StatInstallRatePOWR"
   },
   {
-    "strName": "SolarPanelLargeDismantle",
-    "strActionCO": "ItmSolarPanelLarge",
+    "strName": "SolarPanelLargeOnDismantle",
+    "strActionCO": "ItmSolarPanelLargeOn",
     "strActionGroup": "Work",
     "strTooltip": "Carefully deconstructs item into component parts (Non-reversible).",
     "strInteractionTemplate": "ACTDismantleTEMP",
@@ -115,8 +161,31 @@
     "strCTThemMultCondUs": "StatInstallRatePOWR"
   },
   {
-    "strName": "SolarPanelLargeLooseDismantle",
-    "strActionCO": "ItmSolarPanelLargeLoose",
+    "strName": "SolarPanelLargeOffDismantle",
+    "strActionCO": "ItmSolarPanelLargeOff",
+    "strActionGroup": "Work",
+    "strTooltip": "Carefully deconstructs item into component parts (Non-reversible).",
+    "strInteractionTemplate": "ACTDismantleTEMP",
+    "CTThem": "TCanBeDismantled",
+    "aInputs": [],
+    "fTargetPointRange": 3.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "strLootOut": "ItmSolarPanelLargeDismantle",
+    "strJobType": "dismantle",
+    "strAllowLootCTsUs": "CTWorkProgressPOWR",
+    "strAllowLootCTsThem": "CONDDismantleProgress",
+    "strProgressStat": "StatDismantleProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRatePOWR"
+  },
+  {
+    "strName": "SolarPanelLargeOffLooseDismantle",
+    "strActionCO": "ItmSolarPanelLargeOffLoose",
     "strActionGroup": "Work",
     "strTooltip": "Carefully deconstructs item into component parts (Non-reversible).",
     "strInteractionTemplate": "ACTDismantleTEMP",
@@ -136,5 +205,51 @@
     "strProgressStat": "StatDismantleProgress",
     "strCTThemMultCondTools": "IsToolMortorq",
     "strCTThemMultCondUs": "StatInstallRatePOWR"
+  },
+  {
+    "strName": "Radiator01OffDismantle",
+    "strActionCO": "ItmRadiator01Off",
+    "strActionGroup": "Work",
+    "strTooltip": "Carefully deconstructs item into component parts (Non-reversible).",
+    "strInteractionTemplate": "ACTDismantleTEMP",
+    "CTThem": "TCanBeDismantled",
+    "aInputs": [],
+    "fTargetPointRange": 3.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "strLootOut": "ItmRadiatorDismantle",
+    "strJobType": "dismantle",
+    "strAllowLootCTsUs": "CTWorkProgressHVAC",
+    "strAllowLootCTsThem": "CONDDismantleProgress",
+    "strProgressStat": "StatDismantleProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateHVAC"
+  },
+  {
+    "strName": "Radiator01OffLooseDismantle",
+    "strActionCO": "ItmRadiator01OffLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Carefully deconstructs item into component parts (Non-reversible).",
+    "strInteractionTemplate": "ACTDismantleTEMP",
+    "CTThem": "TCanBeDismantled",
+    "aInputs": [],
+    "fTargetPointRange": 3.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "strLootOut": "ItmRadiatorDismantle",
+    "strJobType": "dismantle",
+    "strAllowLootCTsUs": "CTWorkProgressHVAC",
+    "strAllowLootCTsThem": "CONDDismantleProgress",
+    "strProgressStat": "StatDismantleProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateHVAC"
   } 
 ]

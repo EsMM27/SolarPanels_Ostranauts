@@ -1,0 +1,52 @@
+[
+  {
+    "strName": "GUISolarPanel",
+    "strTitle": "Control Panel",
+    "strDesc": "[us] [accesses] [them]'s panel.",
+    "strTooltip": "Accesses target's solar controls and charge meter.",
+    "strActionGroup": "Use",
+    "strTargetPoint": "use",
+    "fTargetPointRange": 2.0,
+    "strAnim": "Use",
+    "strBubble": "BblTouch",
+    "aInverse": [
+      "GUISolarPanelAllow"
+    ],
+    "fDuration": 0.00027,
+    "strThemType": "Other",
+    "strRaiseUI": null,
+    "nLogging": 1,
+    "bOpener": true,
+    "bHumanOnly": true,
+    "bIgnoreFeelings": true,
+    "LootCTsUs": null,
+    "LootCTsThem": null,
+    "CTTestUs": "TIsHuman",
+    "CTTestThem": "TIsPowerStorage",
+    "aLootItms": [
+    ],
+    "objLootModeSwitch": null
+  },
+  {
+    "strName": "GUISolarPanelAllow",
+    "strTitle": "",
+    "strDesc": "[us] shows [them] [us]'s controls.",
+    "strActionGroup": "Use",
+    "strTargetPoint": null,
+    "fTargetPointRange": 0,
+    "strAnim": null,
+    "strBubble": "BblTouch",
+    "aInverse": [
+    ],
+    "fDuration": 1.0,
+    "strThemType": "Other",
+    "strRaiseUI": "Panel A",
+    "LootCTsUs": null,
+    "LootCTsThem": null,
+    "CTTestUs": null,
+    "CTTestThem": null,
+    "aLootItms": [
+    ],
+    "objLootModeSwitch": null
+  }
+]

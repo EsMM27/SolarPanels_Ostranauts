@@ -1,7 +1,7 @@
 [
   {
-    "strName": "SolarPanelSmallUndamage",
-    "strActionCO": "ItmSolarPanelSmall",
+    "strName": "SolarPanelSmallOnUndamage",
+    "strActionCO": "ItmSolarPanelSmallOn",
     "strActionGroup": "Work",
     "strTooltip": "Reduces item's wear and tear to prevent damage.",
     "strInteractionTemplate": "ACTUndamageTEMP",
@@ -15,7 +15,7 @@
       "TIsToolSoldering"
     ],
     "aLootCOs": [
-      "ItmSolarPanelSmall"
+      "ItmSolarPanelSmallOn"
     ],
     "strJobType": "repair",
     "strAllowLootCTsUs": "CTWorkProgressPOWR",
@@ -25,8 +25,8 @@
     "strCTThemMultCondUs": "StatInstallRatePOWR"
   },
   {
-    "strName": "SolarPanelSmallLooseUndamage",
-    "strActionCO": "ItmSolarPanelSmallLoose",
+    "strName": "SolarPanelSmallOffUndamage",
+    "strActionCO": "ItmSolarPanelSmallOff",
     "strActionGroup": "Work",
     "strTooltip": "Reduces item's wear and tear to prevent damage.",
     "strInteractionTemplate": "ACTUndamageTEMP",
@@ -40,7 +40,7 @@
       "TIsToolSoldering"
     ],
     "aLootCOs": [
-      "ItmSolarPanelSmallLoose"
+      "ItmSolarPanelSmallOff"
     ],
     "strJobType": "repair",
     "strAllowLootCTsUs": "CTWorkProgressPOWR",
@@ -50,8 +50,8 @@
     "strCTThemMultCondUs": "StatInstallRatePOWR"
   },
   {
-    "strName": "SolarPanelMediumUndamage",
-    "strActionCO": "ItmSolarPanelMedium",
+    "strName": "SolarPanelSmallOffLooseUndamage",
+    "strActionCO": "ItmSolarPanelSmallOffLoose",
     "strActionGroup": "Work",
     "strTooltip": "Reduces item's wear and tear to prevent damage.",
     "strInteractionTemplate": "ACTUndamageTEMP",
@@ -65,7 +65,7 @@
       "TIsToolSoldering"
     ],
     "aLootCOs": [
-      "ItmSolarPanelMedium"
+      "ItmSolarPanelSmallOffLoose"
     ],
     "strJobType": "repair",
     "strAllowLootCTsUs": "CTWorkProgressPOWR",
@@ -75,8 +75,8 @@
     "strCTThemMultCondUs": "StatInstallRatePOWR"
   },
   {
-    "strName": "SolarPanelMediumLooseUndamage",
-    "strActionCO": "ItmSolarPanelMediumLoose",
+    "strName": "SolarPanelMediumOnUndamage",
+    "strActionCO": "ItmSolarPanelMediumOn",
     "strActionGroup": "Work",
     "strTooltip": "Reduces item's wear and tear to prevent damage.",
     "strInteractionTemplate": "ACTUndamageTEMP",
@@ -90,7 +90,7 @@
       "TIsToolSoldering"
     ],
     "aLootCOs": [
-      "ItmSolarPanelMediumLoose"
+      "ItmSolarPanelMediumOn"
     ],
     "strJobType": "repair",
     "strAllowLootCTsUs": "CTWorkProgressPOWR",
@@ -100,8 +100,8 @@
     "strCTThemMultCondUs": "StatInstallRatePOWR"
   },
   {
-    "strName": "SolarPanelLargeUndamage",
-    "strActionCO": "ItmSolarPanelLarge",
+    "strName": "SolarPanelMediumOffUndamage",
+    "strActionCO": "ItmSolarPanelMediumOff",
     "strActionGroup": "Work",
     "strTooltip": "Reduces item's wear and tear to prevent damage.",
     "strInteractionTemplate": "ACTUndamageTEMP",
@@ -115,7 +115,7 @@
       "TIsToolSoldering"
     ],
     "aLootCOs": [
-      "ItmSolarPanelLarge"
+      "ItmSolarPanelMediumOff"
     ],
     "strJobType": "repair",
     "strAllowLootCTsUs": "CTWorkProgressPOWR",
@@ -125,8 +125,8 @@
     "strCTThemMultCondUs": "StatInstallRatePOWR"
   },
   {
-    "strName": "SolarPanelLargeLooseUndamage",
-    "strActionCO": "ItmSolarPanelLargeLoose",
+    "strName": "SolarPanelMediumOffLooseUndamage",
+    "strActionCO": "ItmSolarPanelMediumOffLoose",
     "strActionGroup": "Work",
     "strTooltip": "Reduces item's wear and tear to prevent damage.",
     "strInteractionTemplate": "ACTUndamageTEMP",
@@ -140,7 +140,7 @@
       "TIsToolSoldering"
     ],
     "aLootCOs": [
-      "ItmSolarPanelLargeLoose"
+      "ItmSolarPanelMediumOffLoose"
     ],
     "strJobType": "repair",
     "strAllowLootCTsUs": "CTWorkProgressPOWR",
@@ -148,5 +148,155 @@
     "strProgressStat": "StatDamage",
     "strCTThemMultCondTools": "IsToolMortorq",
     "strCTThemMultCondUs": "StatInstallRatePOWR"
+  },
+  {
+    "strName": "SolarPanelLargeOnUndamage",
+    "strActionCO": "ItmSolarPanelLargeOn",
+    "strActionGroup": "Work",
+    "strTooltip": "Reduces item's wear and tear to prevent damage.",
+    "strInteractionTemplate": "ACTUndamageTEMP",
+    "CTThem": "TIsUndamageableNotContained",
+    "aInputs": [],
+    "fTargetPointRange": 3.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmSolarPanelLargeOn"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressPOWR",
+    "strAllowLootCTsThem": "CONDUndamageProgress",
+    "strProgressStat": "StatDamage",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRatePOWR"
+  },
+  {
+    "strName": "SolarPanelLargeOffUndamage",
+    "strActionCO": "ItmSolarPanelLargeOff",
+    "strActionGroup": "Work",
+    "strTooltip": "Reduces item's wear and tear to prevent damage.",
+    "strInteractionTemplate": "ACTUndamageTEMP",
+    "CTThem": "TIsUndamageableNotContained",
+    "aInputs": [],
+    "fTargetPointRange": 3.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmSolarPanelLargeOff"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressPOWR",
+    "strAllowLootCTsThem": "CONDUndamageProgress",
+    "strProgressStat": "StatDamage",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRatePOWR"
+  },
+  {
+    "strName": "SolarPanelLargeOffLooseUndamage",
+    "strActionCO": "ItmSolarPanelLargeOffLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Reduces item's wear and tear to prevent damage.",
+    "strInteractionTemplate": "ACTUndamageTEMP",
+    "CTThem": "TIsUndamageableNotContained",
+    "aInputs": [],
+    "fTargetPointRange": 3.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmSolarPanelLargeOffLoose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressPOWR",
+    "strAllowLootCTsThem": "CONDUndamageProgress",
+    "strProgressStat": "StatDamage",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRatePOWR"
+  },
+  {
+    "strName": "Radiator01OffUndamage",
+    "strActionCO": "ItmRadiator01Off",
+    "strActionGroup": "Work",
+    "strTooltip": "Reduces item's wear and tear to prevent damage.",
+    "strInteractionTemplate": "ACTUndamageTEMP",
+    "CTThem": "TIsUndamageableNotContained",
+    "aInputs": [],
+    "fTargetPointRange": 3.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmRadiator01Off"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressHVAC",
+    "strAllowLootCTsThem": "CONDUndamageProgress",
+    "strProgressStat": "StatDamage",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateHVAC"
+  },
+  {
+    "strName": "Radiator01OnUndamage",
+    "strActionCO": "ItmRadiator01On",
+    "strActionGroup": "Work",
+    "strTooltip": "Reduces item's wear and tear to prevent damage.",
+    "strInteractionTemplate": "ACTUndamageTEMP",
+    "CTThem": "TIsUndamageableNotContained",
+    "aInputs": [],
+    "fTargetPointRange": 3.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmRadiator01On"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressHVAC",
+    "strAllowLootCTsThem": "CONDUndamageProgress",
+    "strProgressStat": "StatDamage",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateHVAC"
+  },
+  {
+    "strName": "Radiator01OffLooseUndamage",
+    "strActionCO": "ItmRadiator01OffLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Reduces item's wear and tear to prevent damage.",
+    "strInteractionTemplate": "ACTUndamageTEMP",
+    "CTThem": "TIsUndamageableNotContained",
+    "aInputs": [],
+    "fTargetPointRange": 3.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmRadiator01OffLoose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressHVAC",
+    "strAllowLootCTsThem": "CONDUndamageProgress",
+    "strProgressStat": "StatDamage",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateHVAC"
   }
 ]

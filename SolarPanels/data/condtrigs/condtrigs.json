@@ -175,5 +175,64 @@
     ],
     "aTriggers": [],
     "bAND": true
+  },
+  {
+    "strName": "TIsRadiatorInstalled",
+    "strCondName": "",
+    "fChance": 1.0,
+    "fCount": 1.0,
+    "aReqs": [
+      "IsRadiator",
+      "IsInstalled"
+    ],
+    "aForbids": [
+      "IsDamaged"
+    ],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsRadiatorInstalledDmg",
+    "strCondName": "",
+    "fChance": 1.0,
+    "fCount": 1.0,
+    "aReqs": [
+      "IsRadiator",
+      "IsInstalled",
+      "IsDamaged"
+    ],
+    "aForbids": [],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsRadiatorUninstalled",
+    "strCondName": "",
+    "fChance": 1.0,
+    "fCount": 1.0,
+    "aReqs": [
+      "IsRadiator"
+    ],
+    "aForbids": [
+      "IsInstalled",
+      "IsDamaged"
+    ],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsRadiatorUninstalledDmg",
+    "strCondName": "",
+    "fChance": 1.0,
+    "fCount": 1.0,
+    "aReqs": [
+      "IsRadiator",
+      "IsDamaged"
+    ],
+    "aForbids": [
+      "IsInstalled"
+    ],
+    "aTriggers": [],
+    "bAND": true
   }
 ]

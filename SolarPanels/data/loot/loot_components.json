@@ -122,7 +122,7 @@
       "ItmScrapAluminum=1.0x5",
       "ItmScrapCarbonFiber=1.0x4",
       "ItmComponentMobo01=1.0x1",
-      "ItmComponentMotor01=1.0x2-4",
+      "ItmComponentMotor01=1.0x1-2",
       "ItmPartsElecSmall01=1.0x8",
       "ItmPartsMechSmall01=1.0x4",
       "ItmScrapTrash=1.0x1-2"
@@ -167,10 +167,63 @@
       "ItmScrapAluminum=1.0x5",
       "ItmScrapCarbonFiber=1.0x4",
       "ItmComponentMobo01=1.0x1",
-      "ItmComponentMotor01=1.0x2-4",
+      "ItmComponentMotor01=1.0x1-2",
       "ItmPartsElecSmall01=1.0x8",
       "ItmPartsMechSmall01=1.0x4",
       "ItmScrapTrash=1.0x1-2"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmRadiator01Damage",
+    "aCOs"    : [
+      "ItmRadiator01Dmg=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmRadiatorComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmRadiator01LooseDamage",
+    "aCOs"    : [
+      "ItmRadiator01DmgLoose=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmRadiatorComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmRadiatorComponents",
+    "aCOs"    : [
+      "ItmComponentMotor01=0.5x1",
+      "ItmHeatSink01=0.5x1",
+      "ItmPartsMechSmall01=1.0x1-3"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmRadiatorComponentsShell",
+    "aCOs"    : [
+      "ItmScrapTrash=1.0x1-2",
+      "ItmScrapSteel=0.5x1-2"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmRadiatorDismantle",
+    "aCOs"    : [
+      "ItmComponentMotor01=1.0x1",
+      "ItmHeatSink01=1.0x1",
+      "ItmPartsMechSmall01=1.0x3",
+      "ItmScrapSteel=1.0x2"
     ],
     "aLoots"  : [
     ],

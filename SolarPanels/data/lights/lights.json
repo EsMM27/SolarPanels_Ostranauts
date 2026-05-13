@@ -1,0 +1,12 @@
+[
+{
+    "strName" : "SolarPanelOperationalLight",
+    "strColor": "AlarmWhite",
+    "strImg": "SolarPanelLargeLight",
+    "ptPos": {
+      "x": 0,
+      "y": 0
+    },
+    "bCanBlink": true
+  }
+]

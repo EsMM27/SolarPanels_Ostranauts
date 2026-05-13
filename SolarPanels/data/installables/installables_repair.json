@@ -18,7 +18,7 @@
       "TIsToolSoldering"
     ],
     "aLootCOs": [
-      "ItmSolarPanelSmall"
+      "ItmSolarPanelSmallOn"
     ],
     "strJobType": "repair",
     "strAllowLootCTsUs": "CTWorkProgressPOWR",
@@ -46,7 +46,7 @@
       "TIsToolSoldering"
     ],
     "aLootCOs": [
-      "ItmSolarPanelSmallLoose"
+      "ItmSolarPanelSmallOffLoose"
     ],
     "strJobType": "repair",
     "strAllowLootCTsUs": "CTWorkProgressPOWR",
@@ -74,7 +74,7 @@
       "TIsToolSoldering"
     ],
     "aLootCOs": [
-      "ItmSolarPanelMedium"
+      "ItmSolarPanelMediumOn"
     ],
     "strJobType": "repair",
     "strAllowLootCTsUs": "CTWorkProgressPOWR",
@@ -102,7 +102,7 @@
       "TIsToolSoldering"
     ],
     "aLootCOs": [
-      "ItmSolarPanelMediumLoose"
+      "ItmSolarPanelMediumOffLoose"
     ],
     "strJobType": "repair",
     "strAllowLootCTsUs": "CTWorkProgressPOWR",
@@ -131,7 +131,7 @@
       "TIsToolSoldering"
     ],
     "aLootCOs": [
-      "ItmSolarPanelLarge"
+      "ItmSolarPanelLargeOn"
     ],
     "strJobType": "repair",
     "strAllowLootCTsUs": "CTWorkProgressPOWR",
@@ -160,7 +160,7 @@
       "TIsToolSoldering"
     ],
     "aLootCOs": [
-      "ItmSolarPanelLargeLoose"
+      "ItmSolarPanelLargeOffLoose"
     ],
     "strJobType": "repair",
     "strAllowLootCTsUs": "CTWorkProgressPOWR",
@@ -168,5 +168,65 @@
     "strProgressStat": "StatRepairProgress",
     "strCTThemMultCondTools": "IsToolMortorq",
     "strCTThemMultCondUs": "StatInstallRatePOWR"
+  },
+  {
+    "strName": "Radiator01Repair",
+    "strActionCO": "ItmRadiator01Dmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Repairs item to a functional state.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMotor=1.0x1",
+      "TIsHeatSink=1.0x1",
+      "TIsScrapSteel=1.0x2",
+      "TIsPartsMechSmall=1.0x3"
+    ],
+    "fTargetPointRange": 3.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmRadiator01Off"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressHVAC",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateHVAC"
+  },
+  {
+    "strName": "Radiator01LooseRepair",
+    "strActionCO": "ItmRadiator01DmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Repairs item to a functional state.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsMotor=1.0x1",
+      "TIsHeatSink=1.0x1",
+      "TIsScrapSteel=1.0x2",
+      "TIsPartsMechSmall=1.0x3"
+    ],
+    "fTargetPointRange": 3.0,
+    "fDuration": 0.001,
+    "bSparks": true,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolSoldering"
+    ],
+    "aLootCOs": [
+      "ItmRadiator01OffLoose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressHVAC",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateHVAC"
   }
 ]

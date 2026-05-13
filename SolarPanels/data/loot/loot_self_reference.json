@@ -1,0 +1,101 @@
+[
+  {
+    "strName": "ItmSolarPanelSmallOff",
+    "aCOs": [
+      "ItmSolarPanelSmallOff=1.0x1"
+    ],
+    "aLoots": [
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmSolarPanelSmallOn",
+    "aCOs": [
+      "ItmSolarPanelSmallOn=1.0x1"
+    ],
+    "aLoots": [
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmSolarPanelMediumOff",
+    "aCOs": [
+      "ItmSolarPanelMediumOff=1.0x1"
+    ],
+    "aLoots": [
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmSolarPanelMediumOn",
+    "aCOs": [
+      "ItmSolarPanelMediumOn=1.0x1"
+    ],
+    "aLoots": [
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmSolarPanelLargeOff",
+    "aCOs": [
+      "ItmSolarPanelLargeOff=1.0x1"
+    ],
+    "aLoots": [
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmSolarPanelLargeOn",
+    "aCOs": [
+      "ItmSolarPanelLargeOn=1.0x1"
+    ],
+    "aLoots": [
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmRadiator01Off",
+    "aCOs": [
+      "ItmRadiator01Off=1.0x1"
+    ],
+    "aLoots": [
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmRadiator01On",
+    "aCOs": [
+      "ItmRadiator01On=1.0x1"
+    ],
+    "aLoots": [
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmRadiator01Dmg",
+    "aCOs": [
+      "ItmRadiator01Dmg=1.0x1"
+    ],
+    "aLoots": [
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmRadiator01OffLoose",
+    "aCOs": [
+      "ItmRadiator01OffLoose=1.0x1"
+    ],
+    "aLoots": [
+    ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmRadiator01DmgLoose",
+    "aCOs": [
+      "ItmRadiator01DmgLoose=1.0x1"
+    ],
+    "aLoots": [
+    ],
+    "strType": "item"
+  }
+]
