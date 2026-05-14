@@ -8,9 +8,7 @@ namespace SolarPanels
         private CondOwner co;
         private SolarPanelOperationalBlink operationalBlink;
         private double fTimeNextRun = 0.0;
-        private double fTimeNextLog = 0.0;
         private const double UPDATE_INTERVAL = 1.0;
-        private const double LOG_INTERVAL = 10.0;
         private const double GasHeatCapacity = 20.7;
         public double CurrentProducedKWhThisTick { get; private set; }
         public double CurrentProducedWattsThisTick { get; private set; }
@@ -65,11 +63,6 @@ namespace SolarPanels
                 SetOperationalBlink(false);
                 co.ZeroCondAmount("IsReadyRecharge");
                 co.ZeroCondAmount("StatPower");
-                LogDebug(signalSuppressed
-                    ? "Skipping run because the panel is signalled off."
-                    : forcedOff
-                    ? "Skipping run because the panel is switched off."
-                    : "Skipping run because the panel is not installed.");
                 return;
             }
 
@@ -210,7 +203,6 @@ namespace SolarPanels
             CondOwner coNew = DataHandler.GetCondOwner(targetState, null, null, true, null, null, co.strID, null);
             if (coNew == null)
             {
-                LogDebug($"Failed to mode switch to '{targetState}'.");
                 return false;
             }
 
@@ -226,7 +218,6 @@ namespace SolarPanels
             }
 
             SetPanelKnobState(knobState);
-            LogDebug($"Mode switched to '{targetState}' because {reason}.");
             return true;
         }
 
@@ -262,21 +253,18 @@ namespace SolarPanels
         {
             if (CurrentProducedWattsThisTick <= 0.0 || co == null || co.ship == null)
             {
-                LogDebug("No heat transfer because current produced watts is zero.");
                 return;
             }
 
             Room room = GetNearestInteriorRoomWithGas();
             if (room == null || room.CO == null || room.CO.GasContainer == null)
             {
-                LogDebug("No interior room with gas was found on this ship.");
                 return;
             }
 
             double gasMoles;
             if (!room.CO.GasContainer.mapGasMols1.TryGetValue("StatGasMolTotal", out gasMoles) || gasMoles <= 0.0)
             {
-                LogDebug($"Room '{room.CO.strName}' has no gas moles available for heat transfer.");
                 return;
             }
 
@@ -284,9 +272,6 @@ namespace SolarPanels
             double heatToShipWatts = wasteHeatWatts * HullHeatCoupling;
             double deltaTemp = heatToShipWatts * UPDATE_INTERVAL / GasHeatCapacity / gasMoles;
             room.CO.GasContainer.fDGasTemp += deltaTemp;
-            LogDebug(
-                $"Heat applied to room '{room.CO.strName}': produced={CurrentProducedWattsThisTick:F2}W, " +
-                $"waste={wasteHeatWatts:F2}W, coupled={heatToShipWatts:F2}W, gasMoles={gasMoles:F2}, dGasTemp={deltaTemp:F5}K.");
         }
 
         private Room GetNearestInteriorRoomWithGas()
@@ -356,18 +341,6 @@ namespace SolarPanels
             }
 
             return float.MaxValue;
-        }
-
-        private void LogDebug(string message)
-        {
-            if (SolarPanelPlugin.Log == null || StarSystem.fEpoch < fTimeNextLog)
-            {
-                return;
-            }
-
-            fTimeNextLog = StarSystem.fEpoch + LOG_INTERVAL;
-            string coName = co == null ? GetType().Name : $"{co.strName}/{co.strID}";
-            SolarPanelPlugin.Log.LogInfo($"[SolarHeat] {coName}: {message}");
         }
     }
 }
